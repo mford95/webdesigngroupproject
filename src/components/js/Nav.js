@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/Nav.css";
 import {NavLink} from "react-router-dom";
 
+
 export default function Nav() {
     return (
         <div className="nav-container">
@@ -12,6 +13,7 @@ export default function Nav() {
                 <NavLink to="Careers" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Careers</NavLink>
             
             </nav>
+
         </div>
     )
 }

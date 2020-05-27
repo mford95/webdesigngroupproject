@@ -1,0 +1,49 @@
+.mainContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+width: 100vw;
+
+}
+.footerLeft{
+flex-direction: column;
+padding: 10px;
+}
+.leftHolder{
+flex-direction: row;
+
+}
+.leftHolder h3{
+   }
+
+.leftImg{
+float: left;
+clear: both;
+width: 2vw;
+
+}
+.footerMiddle{
+flex-direction: column;
+margin-right: 25vw;
+margin-left: 25vw;
+
+}
+.middleLinks{
+flex-direction: row;
+text-decoration: none;
+}
+.middleLinksText{
+flex-direction: row;
+text-decoration: none;
+padding: 10px;
+}
+.middleSocial{
+flex-direction: row;
+}
+.footerRight{
+flex-direction: row;
+margin-left: auto;
+
+}
