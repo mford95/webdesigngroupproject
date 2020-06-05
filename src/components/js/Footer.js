@@ -5,10 +5,15 @@ import {Link} from "react-router-dom";
 import contactImg from "../../assets/footer/contact.png"
 import locationImg from "../../assets/footer/location.png"
 import phoneImg from "../../assets/footer/phone.png"
+import socialFb from "../../assets/footer/facebook.png"
+import socialIg from "../../assets/footer/instagram.png"
+import socialTiktok from "../../assets/footer/tiktok.png"
+import socialBehance from "../../assets/footer/behance.png"
 
 export default class Footer extends Component {
     render() {
         return (
+            <div>
             <div className="mainContainer">
                 <div className="footerLeft">
                     <div className="leftHolder">
@@ -33,13 +38,16 @@ export default class Footer extends Component {
                     
                     </div>
                     <div className="middleSocial">
-                    <h1>middleSocial</h1>
+                    <img className="socialImg" src={socialFb} alt='' ></img> 
+                    <img className="socialImg" src={socialIg} alt='' ></img> 
+                    <img className="socialImg" src={socialTiktok} alt='' ></img> 
+                    <img className="socialImg" src={socialBehance} alt='' ></img> 
                     </div>
                 </div>
                 <div className="footerRight">
                 <h1>^</h1>
                 </div>
-                
+                </div>
             </div>
         )
     }

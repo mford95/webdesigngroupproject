@@ -1,8 +1,9 @@
 .nav-container{
-padding: 2%;
+padding-top: 2%;
+padding-bottom: 2%;
 margin-left: auto;
 margin-right: auto;
-background-color: chartreuse;
+background-color: #115637;
 height: 5vh;
 width: 100vw;
 
@@ -19,7 +20,7 @@ padding-right: 5%;
         
 }
 .NavLinks{
-color: black;
+color: #EEEEEE;
 text-decoration: none;     
 letter-spacing: 1px;
 display: inline-block;
@@ -32,7 +33,7 @@ float: right;
             
 }
 .homeLogo{
-    color: black;
+    color: #EEEEEE;
     float: left;
     font-size: 25px;
     text-align: left;

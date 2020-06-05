@@ -1,49 +1,84 @@
 .mainContainer{
 display: flex;
 flex-direction: row;
-align-items: center;
 margin-left: auto;
 margin-right: auto;
 width: 100vw;
+background-color: #EEEEEE;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding-bottom: 1%;
+padding-top: 1%;
+justify-content: space-evenly;
+
+
+
+
 
 }
 .footerLeft{
 flex-direction: column;
-padding: 10px;
+padding-left: 5%;
+width: 33vw;
 }
+
 .leftHolder{
 flex-direction: row;
+margin-top: 30px;
 
 }
-.leftHolder h3{
-   }
+.leftHolder h4{
+font-weight: 400;
+
+}
 
 .leftImg{
 float: left;
-clear: both;
 width: 2vw;
+margin-top: auto;
+margin-bottom: auto;
+
+
+
 
 }
 .footerMiddle{
 flex-direction: column;
-margin-right: 25vw;
-margin-left: 25vw;
+margin-left: auto;
+margin-right: auto;
+width: 33vw;
+
 
 }
 .middleLinks{
 flex-direction: row;
 text-decoration: none;
+padding: 10%;
+margin-left: auto;
+margin-right: auto;
 }
 .middleLinksText{
 flex-direction: row;
 text-decoration: none;
-padding: 10px;
+padding: 5%;
+color: black;
 }
 .middleSocial{
 flex-direction: row;
+margin-left: auto;
+margin-right: auto;
 }
+.socialImg{
+   
+   width: 2vw;
+   padding: 5%;
+   }
+
+
 .footerRight{
 flex-direction: row;
-margin-left: auto;
+width: 33vw;
 
 }
