@@ -1,84 +1,87 @@
-.mainContainer{
-display: flex;
-flex-direction: row;
-margin-left: auto;
-margin-right: auto;
-width: 100vw;
-background-color: #EEEEEE;
+.Holder{
 position: absolute;
 right: 0;
 bottom: 0;
 left: 0;
-padding-bottom: 1%;
-padding-top: 1%;
-justify-content: space-evenly;
-
-
-
-
-
-}
-.footerLeft{
-flex-direction: column;
-padding-left: 5%;
-width: 33vw;
 }
 
-.leftHolder{
-flex-direction: row;
-margin-top: 30px;
-
+.mainContainer{
+   display: flex;
+   flex-direction: row;
+   background-color: #6ABD45;
+   width: 100vw;
+   height: 40vh;
+   justify-content: space-around;
 }
-.leftHolder h4{
-font-weight: 400;
 
+.leftSide{
+   display: flex;
+   flex-direction: column;
+   width: 25vw;
+   height: 25vh;
+   border-left: 5px solid white;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.contactHolder{
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   width: auto;
+   height: auto;
+   margin-left: 10%;
+   margin-top: auto;
+   margin-bottom: auto;
 }
 
-.leftImg{
-float: left;
-width: 2vw;
+.contactImg{
 margin-top: auto;
 margin-bottom: auto;
-
-
-
-
 }
-.footerMiddle{
-flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-width: 33vw;
-
-
+.contactText{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 20px;
+color: white;
 }
-.middleLinks{
-flex-direction: row;
-text-decoration: none;
-padding: 10%;
-margin-left: auto;
-margin-right: auto;
+.ImgSize{
+   width: 25px;
 }
-.middleLinksText{
-flex-direction: row;
-text-decoration: none;
-padding: 5%;
-color: black;
+
+.rightSide{
+   width: 25vw;
+   height: 25vh;
+   border-left: 5px solid white;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.logoHolder{
+   margin-top: auto;
+   margin-bottom: auto;
+   
+   padding: 5%;
+}
+.vicLogo{
+   width: 25vw;
+}
+.socialContainer{
+   display: flex;
+   flex-direction: column;
+   
 }
 .middleSocial{
-flex-direction: row;
-margin-left: auto;
-margin-right: auto;
-}
-.socialImg{
-   
-   width: 2vw;
-   padding: 5%;
+   margin-top: 3%;
+   margin-bottom: auto;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
    }
-
-
-.footerRight{
-flex-direction: row;
-width: 33vw;
-
+.socialImg{
+width: 2vw;
+padding: 10px;
+      }
+.middleCopy{
+   margin-top: auto;
+   margin-bottom: auto;
+   top: 0;
 }

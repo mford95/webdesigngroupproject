@@ -9,43 +9,65 @@ import socialFb from "../../assets/footer/facebook.png"
 import socialIg from "../../assets/footer/instagram.png"
 import socialTiktok from "../../assets/footer/tiktok.png"
 import socialBehance from "../../assets/footer/behance.png"
+import vicLogo from "../../assets/footer/vicLogo.png"
 
 export default class Footer extends Component {
     render() {
         return (
             <div>
+                <div className="Holder">
             <div className="mainContainer">
-                <div className="footerLeft">
-                    <div className="leftHolder">
-                    <img className="leftImg" src={locationImg} alt='' ></img> 
-                    <h4>Wellington, New Zealand</h4>
+                <div className="leftSide">
+
+                    <div className="contactHolder">
+
+                        <div className="contactImg">
+                            <img className="ImgSize" src={locationImg} alt='' ></img> 
+                            
+                        </div>
+
+                        <div className= "contactText">
+                        <p>139 Vivian Street, Te Aro, Wellington</p>
+                        </div>
+                        
                     </div>
-                    <div className="leftHolder">
-                    <img className="leftImg" src={phoneImg} alt='' ></img>
-                    <h4>0800 000 000</h4> 
+
+                    <div className="contactHolder">
+                        <div className="contactImg">
+                            <img className="ImgSize" src={phoneImg} alt='' ></img> 
+                        </div>
+                        <div className= "contactText">
+                        <p>04 463 6200</p>
+                        </div>
+                        
                     </div>
-                    <div className="leftHolder">
-                    <img className="leftImg" src={contactImg} alt='' ></img> 
-                    <h4>email@vuw.ac.nz</h4> 
+                    <div className="contactHolder">
+                        <div className="contactImg">
+                            <img className="ImgSize" src={contactImg} alt='' ></img> 
+                        </div>
+                        <div className= "contactText">
+                        <p>foad@vuw.ac.nz</p>
+                        </div>
+                        
                     </div>
                 </div>
-                <div className="footerMiddle">
-                    <div className="middleLinks">
-                    <Link to="" className="middleLinksText" >Career</Link>
-                    <Link to="" className="middleLinksText" >Resources</Link>
-                    <Link to="" className="middleLinksText" >Levels</Link>
-                    
-                    
+                 <div className="rightSide">
+                    <div className="logoHolder">
+                    <img className="vicLogo" src={vicLogo} alt='' ></img> 
                     </div>
-                    <div className="middleSocial">
+                </div>
+
+                </div>
+                <div className="socialContainer">
+                <div className="middleSocial">
                     <img className="socialImg" src={socialFb} alt='' ></img> 
                     <img className="socialImg" src={socialIg} alt='' ></img> 
                     <img className="socialImg" src={socialTiktok} alt='' ></img> 
                     <img className="socialImg" src={socialBehance} alt='' ></img> 
                     </div>
-                </div>
-                <div className="footerRight">
-                <h1>^</h1>
+                    <div className="middleCopy">
+                    <h6>Copyright © Victoria University of Wellington, New Zealand</h6>
+                    </div>
                 </div>
                 </div>
             </div>
