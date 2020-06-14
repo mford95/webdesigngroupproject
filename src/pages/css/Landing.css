@@ -1,4 +1,4 @@
-.landing-section{
+.landing-section, .major-description{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -6,13 +6,13 @@
     text-align: left;
 }
 
-.landing-section-text{
-    width: 40%;
-}
-
 .landing-section-text h1{
     font-size: 450%;
     margin-bottom: 0vh;
+}
+
+.landing-section-text p{
+    width: 50%;
 }
 
 .shortcut-links{
@@ -27,10 +27,6 @@
     height: auto;
 }
 
-.view-all{
-    /* display: flex; */
-}
-
 .view-all button{
     margin-left: 3vw;
     background-color: #6ABD45;
@@ -38,4 +34,48 @@
     color: white;
     padding: 8px 25px;
     text-decoration: none;
+}
+
+.major-main-content{
+    display: flex;
+    margin-bottom: 20vh;
+    justify-content: space-between;
+}
+
+.major-main-content img{
+    width: 40%;
+}
+
+.major-main-content-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.major-main-content-industrial-button, .major-main-content-media-button, .major-main-content-interaction-button, .major-main-content-communication-button{
+    width: 8vw;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+
+.major-main-content-industrial-button{
+    background-color: #3580B5;
+}
+
+.major-main-content-media-button{
+    background-color: #EC2128;
+}
+
+.major-main-content-interaction-button{
+    background-color: #F8E617;
+}
+
+.major-main-content-communication-button{
+    background-color: #ED7523;
+}
+.major-description h2{
+    font-size: 300%;
 }
