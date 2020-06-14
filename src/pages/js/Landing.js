@@ -20,7 +20,7 @@ export default function Landing() {
             <div class="landing-section">
                 <div class="landing-section-text">
                     <h1>School of Design</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>The Bachelor of Design Innovation (BDI) will prepare you to work as a designer in an exciting variety of design-based professions. Find out about the areas of design you can major in for your undergraduate degree, along with two areas offered at postgraduate level.</p>
                 </div>
                 <div class="shortcut-links">
                 <a href=""><img src={industrialLink} alt="'Industrial' text with blue splodges" /></a>
@@ -31,7 +31,7 @@ export default function Landing() {
            
                 </div>
                 <div className="view-all">
-                <p>Lorem ipsum dolor sit amet? consectetur adipiscing elit.<button>View all</button></p>
+                <p>Not sure exactly what you're after? No worries,<button>View all</button></p>
                 </div>
             </div>
             
@@ -42,7 +42,7 @@ export default function Landing() {
                 <div className="major-main-content">
                     <img src={industrialImg} alt="3D printer with blue splodge" />
                     <div className="major-main-content-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Learn how to develop original, useful and meaningful products that enrich our daily lives. Explore the complex social and cultural considerations that go into creating good design.</p>
                         <button className="major-main-content-industrial-button">Learn more</button>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Landing() {
                 <div className="major-main-content">
                     <img src={mediaImg} alt="playstation controller with red splodge" />
                     <div className="major-main-content-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Media Design explores the different ways people interact with digital technology. This includes web experiences, visual and audio communication, augmented and virtual reality, gaming, and mobile media.</p>
                         <button className="major-main-content-media-button">Learn more</button>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Landing() {
                 <div className="major-main-content">
                     <img src={interactionImg} alt="mobile phone with interface on it with yellow splodge" />
                     <div className="major-main-content-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Study how humans connect and interact with a vast range of physical and digital systems. Learn to envision how people experience products—from real objects to digital interactions with apps and websites—and bring that vision to life in ways that feel inspired, refined, and even magical.</p>
                         <button className="major-main-content-interaction-button">Learn more</button>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Landing() {
                 <div className="major-main-content">
                     <img src={communicationImg} alt="open book with graphic design elements with orange splodge" />
                     <div className="major-main-content-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Learn to communicate effective visual messages, information and ideas that contribute to a successful design product.</p>
                         <button className="major-main-content-communication-button">Learn more</button>
                     </div>
                 </div>
