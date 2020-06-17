@@ -1,5 +1,5 @@
 .landing-section, .major-description{
-    width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15vh;
@@ -21,6 +21,10 @@
     margin-bottom: 7vh;
     display: flex;
     justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+    /* height: 100%; */
 }
 
 .shortcut-links img{
@@ -28,23 +32,82 @@
     height: auto;
 }
 
+
+.shortcut-links img:hover{
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Bob */
+
+  @keyframes shortcut-links-hover-bob {
+    0% {
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes shortcut-links-hover-float {
+    100% {
+      transform: translateY(-8px);
+    }
+  }
+
+
+.shortcut-links-hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .shortcut-links-hover:hover, .shortcut-links-hover:focus, .shortcut-links-hover:active {
+    animation-name: shortcut-links-hover-float, shortcut-links-hover-bob;
+    animation-duration: .3s, 1.3s;
+    animation-delay: 0s, .3s;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal, alternate;
+  }
+
+
+
+
+
+
+
+
+.fadeInUp{
+    background-color: red;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 .view-all{
     margin-bottom: 17vh;
-}
-
-.view-all button{
-    margin-left: 1vw;
-    background-color: #6ABD45;
-    border: none;
-    color: white;
-    padding: 6px 20px;
-    text-decoration: none;
-    font-size: 110%;
-}
-
-.view-all button:hover{
-    background-color: #5dad39;
-    text-decoration: underline;
 }
 
 .major-description h2{
@@ -55,60 +118,203 @@
     display: flex;
     margin-bottom: 20vh;
     justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    flex: 3;
+}
+
+
+.image img{
+    width: 100%;
+    height: auto;
 }
 
 .major-main-content img{
-    width: 40%;
+    /* width: 100%;
+    height: auto; */
+    /* background-color: skyblue; */
+    /* flex: 1;
+    align-self: center;
+    display: block; */
 }
 
 .major-main-content-text{
-    width: 40%;
+}
+
+.major-main-content-text{
+    margin-left: 10%;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.major-main-content-industrial-button, .major-main-content-media-button, .major-main-content-interaction-button, .major-main-content-communication-button{
-    width: 9.8vw;
-    border: none;
-    color: white;
-    padding: 8px 25px;
-    text-decoration: none;
+.major-main-content-text p{
+    width: 100%;
+}
+
+.view-all button, .major-main-content-industrial-button, .major-main-content-media-button, .major-main-content-interaction-button, .major-main-content-communication-button{
+    color: #F9F9F9;
+    padding: 1% 4%;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
     font-size: 110%;
+  }
+
+  .view-all button{
+    background-color: #6ABD45;
+    border: 2px solid #6ABD45;
+    margin-left: 1vw;
+    padding: 2px 10px;
+    font-size: 100%;
 }
 
-.major-main-content-industrial-button{
-    background-color: #3580B5;
-}
-
-.major-main-content-media-button{
-    background-color: #EC2128;
-}
-
-.major-main-content-interaction-button{
-    background-color: #F8E617;
-}
-
-.major-main-content-communication-button{
-    background-color: #ED7523;
-}
-
-.major-main-content-industrial-button:hover{
+  .major-main-content-industrial-button{
     background-color: #2c72a3;
-    text-decoration: underline;
-}
+    border: 2px solid #2c72a3;
+  }
 
-.major-main-content-media-button:hover{
+  .major-main-content-media-button{
     background-color: #d91c23;
-    text-decoration: underline;
-}
+    border: 2px solid #d91c23;
+  }
 
-.major-main-content-interaction-button:hover{
+  .major-main-content-interaction-button{
     background-color: #f2e118;
-    text-decoration: underline;
-}
+    border: 2px solid #f2e118;
+  }
 
-.major-main-content-communication-button:hover{
-    background-color: #e06e1f;
+  .major-main-content-communication-button{
+    background-color: #ED7523;
+    border: 2px solid #ED7523;
+  }
+  
+  .view-all button:hover, .major-main-content-industrial-button:hover, .major-main-content-media-button:hover, .major-main-content-interaction-button:hover, .major-main-content-communication-button:hover{
     text-decoration: underline;
+    background-color: white;
+  }
+
+  .view-all button:hover{
+    color: #6ABD45;
+    border: 2px solid #6ABD45;
+  }
+
+  .major-main-content-industrial-button:hover{
+    color: #2c72a3;
+    border: 2px solid #2c72a3;
+  }
+
+  .major-main-content-media-button:hover{
+    color: #d91c23;
+    border: 2px solid #d91c23;
+  }
+
+  .major-main-content-interaction-button:hover{
+    color: #f2e118;
+    border: 2px solid #f2e118;
+  }
+
+  .major-main-content-communication-button:hover{
+    color: #ED7523;
+    border: 2px solid #ED7523;
+  }
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+    .landing-section, .major-description{
+        width: 80%;
+        font-size: 100%;
+    }
+
+  }
+
+
+  @media (max-width: 596px){
+
+    .landing-section-text h1{
+        font-size: 320%;
+    }
+
+    .shortcut-links{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        flex-wrap: wrap;   
+        justify-content: space-between;
+    }
+
+    .shortcut-links img{
+        padding: 2vh 0;
+    }
+
+    .shortcut-links>* {
+        flex: 1 1 160px;
+    }
+
+    .landing-section-text p{
+        width: 100%;
+    }
+
+    .major-main-content{
+        flex-direction: column;
+    }
+
+    .major-main-content-text{
+        margin-left: 0%;
+    }
+
+    .image img{
+        width: 50%;
+        height: auto;
+    }
+
+  }
+
+  @media (max-width: 426px){
+
+    .landing-section-text h1{
+        line-height: 100%;
+        font-size: 300%;
+    }
+
+    .shortcut-links img{
+        width: 80%;
+        height: auto;
+    }
+
+    .shortcut-links img{
+        padding: 1vh 0;
+    }
+
+    .view-all{
+        width: 75%;
+        margin-bottom: 0vh;
+        line-height: 180%;
+    }
+
+    .view-all button{
+        padding: 1px 10px;
+    }
+
+    .major-description h2{
+        font-size: 250%;
+    }
+    
+    .major-main-content{
+        flex-direction: column;
+    }
+
+    .major-main-content-text{
+        margin-left: 0%;
+    }
+
+    .image img{
+        width: 100%;
+        height: auto;
+    }
 }

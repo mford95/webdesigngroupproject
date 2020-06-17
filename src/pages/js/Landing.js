@@ -1,6 +1,9 @@
 import React from 'react'
 import "../css/Landing.css";
 
+import Fade from 'react-reveal/Fade';
+import Reveal from 'react-reveal/Reveal';
+
 import Stats from "../../components/js/Stats";
 
 import industrialLink from "../../assets/industrialLink.png";
@@ -23,10 +26,10 @@ export default function Landing() {
                     <p>The Bachelor of Design Innovation (BDI) will prepare you to work as a designer in an exciting variety of design-based professions. Find out about the areas of design you can major in for your undergraduate degree, along with two areas offered at postgraduate level.</p>
                 </div>
                 <div class="shortcut-links">
-                <a href=""><img src={industrialLink} alt="'Industrial' text with blue splodges" /></a>
-                <a href=""><img src={mediaLink} alt="'Media' text with red splodges" /></a>
-                <a href=""><img src={interactionLink} alt="'Interaction' text with yellow splodges" /></a>
-                <a href=""><img src={communicationLink} alt="'Communication' text with orange splodges" /></a>
+                <a className="shortcut-links-hover" href=""><img src={industrialLink} alt="'Industrial' text with blue splodges" /></a>
+                <a className="shortcut-links-hover" href=""><img src={mediaLink} alt="'Media' text with red splodges" /></a>
+                <a className="shortcut-links-hover" href=""><img src={interactionLink} alt="'Interaction' text with yellow splodges" /></a>
+                <a className="shortcut-links-hover" href=""><img src={communicationLink} alt="'Communication' text with orange splodges" /></a>
 
            
                 </div>
@@ -37,24 +40,51 @@ export default function Landing() {
             
             <Stats />
 
+            <Fade left duration={2000} delay={1000}>
+                <p>Markup that will be revealed on scroll</p>
+            </Fade>
+
+            {/* <Reveal effect="fadeInUp"> */}
+
+
             <div className="major-description">
+                <Fade bottom duration={2000} fraction={0.1}>
                 <h2>Industrial</h2>
+                </Fade>
                 <div className="major-main-content">
-                    <img src={industrialImg} alt="3D printer with blue splodge" />
+                    <div className="image">
+                    <Fade bottom duration={1500} fraction={0.1}>
+                        <img src={industrialImg} alt="3D printer with blue splodge" />
+                        </Fade>
+
+                    </div>
                     <div className="major-main-content-text">
-                        <p>Learn how to develop original, useful and meaningful products that enrich our daily lives. Explore the complex social and cultural considerations that go into creating good design.</p>
-                        <button className="major-main-content-industrial-button">Learn more</button>
+                        <div className="major-main-content-text-align">
+                        <Fade bottom duration={2000} fraction={0.1}>
+                            <p>Learn how to develop original, useful and meaningful products that enrich our daily lives. Explore the complex social and cultural considerations that go into creating good design.</p>
+                            <button className="major-main-content-industrial-button">Learn more</button>
+                            </Fade>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
+
+            {/* </Reveal> */}
+
+
             <div className="major-description">
                 <h2>Media</h2>
                 <div className="major-main-content">
-                    <img src={mediaImg} alt="playstation controller with red splodge" />
+                    <div className="image">
+                        <img src={mediaImg} alt="playstation controller with red splodge" />
+                    </div>
                     <div className="major-main-content-text">
-                        <p>Media Design explores the different ways people interact with digital technology. This includes web experiences, visual and audio communication, augmented and virtual reality, gaming, and mobile media.</p>
-                        <button className="major-main-content-media-button">Learn more</button>
+                        <div className="major-main-content-text-align">
+                            <p>Media Design explores the different ways people interact with digital technology. This includes web experiences, visual and audio communication, augmented and virtual reality, gaming, and mobile media.</p>
+                            <button className="major-main-content-media-button">Learn more</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,10 +92,14 @@ export default function Landing() {
             <div className="major-description">
                 <h2>Interaction</h2>
                 <div className="major-main-content">
-                    <img src={interactionImg} alt="mobile phone with interface on it with yellow splodge" />
+                    <div className="image">
+                        <img className="inter-image" src={interactionImg} alt="mobile phone with interface on it with yellow splodge" />
+                    </div>
                     <div className="major-main-content-text">
-                        <p>Study how humans connect and interact with a vast range of physical and digital systems. Learn to envision how people experience products—from real objects to digital interactions with apps and websites—and bring that vision to life in ways that feel inspired, refined, and even magical.</p>
-                        <button className="major-main-content-interaction-button">Learn more</button>
+                        <div className="major-main-content-text-align">
+                            <p>Study how humans connect and interact with a vast range of physical and digital systems. Learn to envision how people experience products—from real objects to digital interactions with apps and websites—and bring that vision to life in ways that feel inspired, refined, and even magical.</p>
+                            <button className="major-main-content-interaction-button">Learn more</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,13 +107,19 @@ export default function Landing() {
             <div className="major-description">
                 <h2>Communication</h2>
                 <div className="major-main-content">
-                    <img src={communicationImg} alt="open book with graphic design elements with orange splodge" />
+                    <div className="image">
+                        <img src={communicationImg} alt="open book with graphic design elements with orange splodge" />
+                    </div>
                     <div className="major-main-content-text">
-                        <p>Learn to communicate effective visual messages, information and ideas that contribute to a successful design product.</p>
-                        <button className="major-main-content-communication-button">Learn more</button>
+                        <div className="major-main-content-text-align">
+                            <p>Learn to communicate effective visual messages, information and ideas that contribute to a successful design product.</p>
+                            <button className="major-main-content-communication-button">Learn more</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
 
         </div>
     )
