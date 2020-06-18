@@ -22,7 +22,7 @@ function App() {
           <Route path="/Interaction-papers/:id" component={InteractionPapers} />
         </Router>
       </Provider>
-
+      <Footer />
     </div>
   );
 }

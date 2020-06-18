@@ -15,7 +15,16 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="Holder">
+            <div className="Holder">
+                <div className="joinBox">
+                    <div className="joinLeft">
+                    <h1>Interested in joining?</h1>
+                    <p>Contact us to learn more about the exciting opportunities we offer</p>
+                    </div>
+                    <div className="joinRight">
+                    <button>Contact Us</button>
+                    </div>
+                </div>
             <div className="mainContainer">
                 <div className="leftSide">
 
