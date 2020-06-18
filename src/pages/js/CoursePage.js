@@ -1,6 +1,12 @@
 import React from 'react';
 import '../css/CoursePage.css';
 
+import HalfStar from '../../assets/half-star.png';
+import Star from '../../assets/star.png';
+import RankingBackdrop from '../../assets/ranking-backdrop.png';
+import YellowHalfStar from '../../assets/yellow-half-star.png';
+import YellowStar from '../../assets/yellow-star.png';
+
 export default function CoursePage() {
     return (
         <div className="course-wrap">
@@ -157,17 +163,96 @@ export default function CoursePage() {
                     <h1>Course Ranking</h1>
                 </div>
                 <div className="ranking-div">
+                    <img src= { RankingBackdrop } alt="Background to Course Ranking"/>
+                    <div className="ranking-box">
+                        <div className="ranking-title">
+                            <h1>4.5</h1>
+                            <h3>/5</h3>
+                        </div>
+                        <div className="ranking-star">
+                            <div className="main-star">
+                            <img src= { Star }  alt="Star" />
+                            </div>
+                            <div className="main-star">
+                            <img src= { Star }  alt="Star" />
+                            </div>
+                            <div className="main-star">
+                            <img src= { Star }  alt="Star" />
+                            </div>
+                            <div className="main-star">
+                            <img src= { Star }  alt="Star" />
+                            </div>
+                            <div className="main-star">
+                            <img src= { HalfStar }  alt="Star" />
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
 
                 </div>
                 <div className="feedback-div">
                     <div className="feedback">
-
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere culpa incidunt cum necessitatibus, minima minus voluptate quis. Eveniet consequatur ea ex illum est beatae distinctio iure excepturi tenetur soluta.</p>
+                        <div className="star-rating">
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowHalfStar }  alt="Half Star" />
+                            </div>
+                            <div className="star">
+                            </div>
+                        </div>
                     </div>
                     <div className="feedback">
-
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere culpa incidunt cum necessitatibus, minima minus voluptate quis. Eveniet consequatur ea ex illum est beatae distinctio iure excepturi tenetur soluta.</p>
+                        <div className="star-rating">
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Half Star" />
+                            </div>
+                        </div>
                     </div>
                     <div className="feedback">
-                        
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere culpa incidunt cum necessitatibus, minima minus voluptate quis. Eveniet consequatur ea ex illum est beatae distinctio iure excepturi tenetur soluta.</p>
+                        <div className="star-rating">
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+                                <img src= { YellowStar }  alt="Star" />
+                            </div>
+                            <div className="star">
+
+                            </div>
+                            <div className="star">
+
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>

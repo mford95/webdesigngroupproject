@@ -42,18 +42,20 @@
 .div-title{
     display: flex;
     justify-content: flex-start;
-    width: 50vw;
+    width: 70vw;
     height: 12.5vh;
 }
 
 .div-title h1{
     font-size: 4em;
     margin: 0;
+    text-align: left;
 }
 
 .div-title h2{
     font-size: 3em;
     margin: 0;
+    text-align: left;
 }
 
 .course-title-info{
@@ -179,7 +181,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 600vh;
+    height: 575vh;
     width: 85vw;
 }
 
@@ -191,11 +193,16 @@
     width: auto;
 }
 
-.project-blurb{
-    width: 55vw;
+.project-blurb {
+    width: 75vw;
     height: 30vh;
     text-align: start;
 }
+
+.project-blurb p{
+    width: 50vw;
+}
+
 
 .image-slideshow{
     display: grid;
@@ -229,28 +236,110 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    height: 100vh;
+    height: 115vh;
     width: 85vw;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    padding-bottom: 10vh;
+    padding-bottom: 30vh;
 }
 
 .ranking-div{
     width: 45vw;
     height: 30vh;
-    background-color: violet;
+}
+
+.ranking-div img{
+    height: 30vh;
+    width: auto;
+    position: absolute;
+    z-index: 0;
+    left: 7.5vw;
+}
+
+.ranking-box{
+    position: absolute;
+}
+
+
+.ranking-star{
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 7.5vh;
+}
+
+.main-star{
+    position: relative;
+    width: 3.5vw;
+    height: 6vh;
+    z-index: 100;
+}
+
+.main-star img{
+    width: 3.5vw;
+    height: auto;
+    z-index: 110;
+    padding-right: 10vw;
+}
+
+
+
+.ranking-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 16.5vw;
+    height: 17.5vh;
+    z-index: 100;
+}
+
+.ranking-title h1{
+    font-size: 6.5em;
+    margin: 0;
+}
+
+.ranking-title h3{
+    font-size: 3.5em;
+    margin: 0;
 }
 
 .feedback-div{
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 85vw;
     height: 35vh;
 }
 
 .feedback{
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 22.5vw;
+}
+
+.feedback h3, p{
+    text-align: left;
     width: 20vw;
-    background-color: blue;
+    margin: 0;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 7.5vh;
+}
+
+.star{
+    width: 3vw;
+    height: 6vh;
+}
+
+.star img{
+    width: 2.75vw;
+    height: auto;
 }
