@@ -1,0 +1,26 @@
+.stats-section{
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+    background-color: #6ABD45;
+    padding: 10vh 0;
+    display: flex;
+    color: white;
+}
+
+.stats-text{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.stats-individual{
+    font-size: 140%;
+    line-height: 20%;
+}
+
+.stats-individual h2{
+    font-size: 200%;
+}
