@@ -200,6 +200,31 @@
 
 
 
+/* .init{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.one:first-of-type {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.one:last-of-type {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+} */
+
+
+
+
+
+
+
+
+
+
+
 .init{
   /* margin-bottom: 2rem; */
   display: grid;
@@ -216,6 +241,15 @@
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
 }
+
+
+
+
+
+
+
+
+
 
 
 
