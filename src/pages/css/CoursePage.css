@@ -1,0 +1,256 @@
+.course-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Title Section */
+
+.title-div{
+    display: flex;
+    align-items: flex-end;
+    height: 85vh;
+    width: 85vw;
+}
+
+.title-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 70vh;
+    width: 85vw;
+}
+
+.return{
+    display: flex;
+    justify-content: flex-start;
+    width: 15vw;
+    height: 5.5vh;
+}
+
+.return h4{
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.div-title{
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    height: 12.5vh;
+}
+
+.div-title h1{
+    font-size: 4em;
+    margin: 0;
+}
+
+.div-title h2{
+    font-size: 3em;
+    margin: 0;
+}
+
+.course-title-info{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    height: 40vh;
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 45vw;
+    height: 40vh; 
+}
+
+.title-text h2{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.course-points-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 20vw;
+}
+
+.points-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12.5vw;
+    height: 25vh;
+    background-color: yellow;
+}
+
+.points-block h1{
+    position: absolute;
+    font-size: 5em;
+    margin: 0;
+    margin-top: 1.5vh;
+}
+
+.points-block h4{
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 15vh;
+}
+
+/* Requirements Section */
+
+.requirements-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 85vw;
+    margin-bottom: 20vh;
+}
+
+.paper-requirements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+    height: 25vh;
+}
+
+.paper-requirements h1{
+    font-size: 3em;
+    text-align: left;
+    margin: 0;
+    margin-right: 2.5vw;
+}
+
+
+.paper-requirements h2{
+    width: 22.5vw;
+    height: auto;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Course Information Banner */
+
+.course-info-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: yellow;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 25vw;
+}
+
+.info-box h1{
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.info-box h3{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+/* Projects Section */
+
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600vh;
+    width: 85vw;
+}
+
+.course-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 115vh;
+    width: auto;
+}
+
+.project-blurb{
+    width: 55vw;
+    height: 30vh;
+    text-align: start;
+}
+
+.image-slideshow{
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-rows: minmax(60vh, 1vw);
+    grid-auto-flow: column;
+    grid-auto-columns: calc(50% - var(--gutter) * 2);
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+}
+
+
+.slidebox {
+    display: inline-block;
+    width: 50vw;
+    height: 60vh;
+    margin-right: 2.5vw;
+    background-color: black;
+}
+
+.slidebox img{
+    height: 100%;
+    width: auto;
+}
+
+/* Course Ranking Section */
+
+.course-ranking-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100vh;
+    width: 85vw;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 10vh;
+}
+
+.ranking-div{
+    width: 45vw;
+    height: 30vh;
+    background-color: violet;
+}
+
+.feedback-div{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 35vh;
+}
+
+.feedback{
+    height: auto;
+    width: 20vw;
+    background-color: blue;
+}

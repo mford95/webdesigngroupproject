@@ -1,3 +1,4 @@
+
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/GlobalContextProvider";
 
@@ -22,4 +23,5 @@ export default function InteractionPapers(props) {
   }, [selectedCourse]);
 
   return <div><p>{selectedCourse.courseTitle}</p></div>;
+
 }
