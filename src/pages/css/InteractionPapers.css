@@ -148,16 +148,8 @@
     height: 25vh;
 }
 
-.paper-requirements h1{
-    font-size: 3em;
-    text-align: left;
-    margin: 0;
-    margin-right: 2.5vw;
-}
-
-
 .paper-requirements h2{
-    width: 22.5vw;
+    width: 50vw;
     height: auto;
     text-align: left;
     margin: 0;
