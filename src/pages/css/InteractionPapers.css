@@ -15,7 +15,7 @@
     align-items: flex-end;
     height: 85vh;
     width: 85vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .title-wrap{
@@ -85,7 +85,7 @@
     justify-content: space-between;
     text-align: start;
     width: 45vw;
-    height: 30vh; 
+    height: 27.5vh; 
 }
 
 .title-text h2{
@@ -95,6 +95,7 @@
 
 .title-text p{
     width: 40vw;
+    height: 15vh;
 }
 
 .course-points-div{
@@ -199,21 +200,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 575vh;
+    height: 275vh;
     width: 85vw;
+    margin-bottom: 10vh;
 }
 
 .course-project{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 115vh;
+    justify-content: space-around;
+    height: 95vh;
     width: auto;
 }
 
 .project-blurb {
     width: 75vw;
-    height: 30vh;
+    height: 15vh;
     text-align: start;
 }
 

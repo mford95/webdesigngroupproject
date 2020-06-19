@@ -58,9 +58,7 @@ export default function InteractionPapers(props) {
           <h1>Requirements</h1>
       </div>
       <div className="paper-requirements">
-          <h2>75 points including 30 points from BDI or BAS Schedules </h2> 
-          <h1> OR </h1>   
-          <h2> Permission from Head of School</h2>
+          <h2>75 points including 30 points from BDI or BAS Schedules OR Permission from Head of School</h2>
       </div>
   </div>
   <div className="course-info-div">
@@ -114,30 +112,6 @@ export default function InteractionPapers(props) {
           <div className="project-blurb">
               <p>{selectedCourse.project2Description}</p>
    
-          </div>
-
-          <div className="image-slideshow">
-              <div className="slidebox">
-                  {/* Insert Image here */}
-              </div>
-              <div className="slidebox">
-                  {/* Insert Image here */}
-              </div>
-              <div className="slidebox">
-                  {/* Insert Image here */}
-              </div>
-          </div>
-      </div>
-
-
-      <div className="course-project">
-          <div className="div-title">
-              <h2>Project Three</h2>
-          </div>
-
-          <div className="project-blurb">
-              <p>{selectedCourse.project3Description}</p>
-             
           </div>
 
           <div className="image-slideshow">
