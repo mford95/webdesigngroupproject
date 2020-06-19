@@ -1,21 +1,31 @@
-import React from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Landing from './pages/js/Landing';
-import './App.css';
+
+import { Provider } from "./context/GlobalContextProvider";
+
+import Landing from "./pages/js/Landing";
+import InteractionPapers from "./pages/js/InteractionPapers";
+import "./App.css";
 import Nav from "./components/js/Nav";
 import CoursePage from './pages/js/CoursePage';
-import interactionMajor from './pages/js/InteractionMajor';
+import Footer from "./components/js/Footer";
 
 function App() {
   return (
     <div className="App">
-   <Router>
-        <Nav />
-        <Route path="/Landing" component={Landing} />
-        <Route path="/CoursePage" component={CoursePage} />
-        <Route path="/interactionMajor" component={interactionMajor} />
-     </Router>
+
+
+      <Provider>
+        <Router>
+          <Nav />
+          <Route path="/Landing" component={Landing} />
+          <Route path="/Interaction-papers/:id" component={InteractionPapers} />
+          <Route path="/CoursePage" component={CoursePage} />
+        </Router>
+      </Provider>
+      <Footer />
+
     </div>
   );
 }
