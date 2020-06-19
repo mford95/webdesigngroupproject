@@ -12,8 +12,10 @@
 .title-div{
     display: flex;
     align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
     height: 85vh;
-    width: 85vw;
+    width: 70vw;
 }
 
 .title-wrap{
@@ -22,7 +24,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     height: 70vh;
-    width: 85vw;
+    width: 90vw;
 }
 
 .return{
@@ -57,8 +59,9 @@
 
 .course-title-info{
     display: flex;
-    justify-content: space-between;
-    width: 85vw;
+    flex-direction: row;
+    justify-content: start;
+    width: 50vw;
     height: 40vh;
 }
 
@@ -76,32 +79,15 @@
     margin: 0;
 }
 
-.course-img-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25vh;
-    width: 20vw;
-}
-
-.points-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.course-hero-div{
+   display: flex;
+   margin: auto;
+   
     
 }
-
-.points-block h1{
-    position: absolute;
-    font-size: 5em;
-    margin: 0;
-    margin-top: 1.5vh;
-}
-
-.points-block h4{
-    font-size: 1.5em;
-    margin: 0;
-    margin-bottom: 15vh;
+.course-hero-div img{
+   width: 35vw;
+    
 }
 
 .interaction-info-div{
@@ -130,4 +116,82 @@
 .info-box h3{
     font-size: 1.25em;
     font-weight: 600;
+}
+
+.Level-papers-div{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-top: 20vh;
+}
+
+.Level-papers-heading{
+    display: flex;
+    justify-content: flex-start;
+    height: 12.5vh;
+}
+.Level-papers-heading h1{
+    font-size: 4em;
+    margin: 0;
+}
+.Level-papers-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80vw;
+    margin-top: 5vh;
+}
+
+.color-code-holder{
+display: flex;
+flex-direction: row;
+
+}
+
+.color-code-div{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.color-code-text{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.Level-heading-div{
+    font-size: 1em;
+    margin-top: 10vh;
+    width: 11vw;
+    
+}
+.Level-heading-div h1{
+    border-bottom: 1.5vh solid yellow;
+    
+}
+
+.level-paper-holder{
+display: flex;
+}
+
+.tri-heading{
+    font-size: 1em;
+    margin-top: 10vh;
+    width: 11vw;
+}
+
+.tri-heading h2{
+
+}
+.paper-thumbnail-holder{
+
+}
+
+.paper-thumbnail-box{
+
 }
