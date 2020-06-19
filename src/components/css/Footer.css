@@ -1,0 +1,124 @@
+.Holder{
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+.mainContainer{
+   display: flex;
+   flex-direction: row;
+   background-color: #6ABD45;
+   width: 100vw;
+   height: 40vh;
+   justify-content: space-around;
+}
+
+.leftSide{
+   display: flex;
+   flex-direction: column;
+   width: 25vw;
+   height: 25vh;
+   border-left: 5px solid white;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.contactHolder{
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   width: auto;
+   height: auto;
+   margin-left: 10%;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.contactImg{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.contactText{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 20px;
+   color: white;
+}
+.ImgSize{
+   width: 25px;
+}
+
+.rightSide{
+   width: 25vw;
+   height: 25vh;
+   border-left: 5px solid white;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.logoHolder{
+   margin-top: auto;
+   margin-bottom: auto;
+   
+   padding: 5%;
+}
+.vicLogo{
+   width: 25vw;
+}
+.socialContainer{
+   display: flex;
+   flex-direction: column;
+   
+}
+.middleSocial{
+   margin-top: 3%;
+   margin-bottom: auto;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   }
+.socialImg{
+   width: 2vw;
+   padding: 10px;
+      }
+.middleCopy{
+   margin: auto;
+}
+
+.joinBox{
+   display: flex;
+   flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-between;
+   padding-bottom: 10vh;
+   
+   
+}
+.joinLeft{
+   margin-left: 10vw;
+   width: auto;
+}
+
+.joinLeft h1{
+   font-size: 300%;
+   
+}
+.joinRight{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-right: 20vw;
+}
+.joinRight button{
+   background-color: #6ABD45;
+   border: none;
+   color: white;
+   padding: 6px 20px;
+   text-decoration: none;
+   font-size: 110%;
+  
+}
+
+.joinRight button:hover{
+   background-color: #5dad39;
+   text-decoration: underline;
+}
