@@ -8,7 +8,6 @@ import Landing from "./pages/js/Landing";
 import InteractionPapers from "./pages/js/InteractionPapers";
 import "./App.css";
 import Nav from "./components/js/Nav";
-import CoursePage from './pages/js/CoursePage';
 import Footer from "./components/js/Footer";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Nav />
           <Route path="/Landing" component={Landing} />
           <Route path="/Interaction-papers/:id" component={InteractionPapers} />
-          <Route path="/CoursePage" component={CoursePage} />
         </Router>
       </Provider>
       <Footer />
