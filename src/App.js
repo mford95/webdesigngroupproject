@@ -5,6 +5,7 @@ import Landing from './pages/js/Landing';
 import './App.css';
 import Nav from "./components/js/Nav";
 import CoursePage from './pages/js/CoursePage';
+import interactionMajor from './pages/js/InteractionMajor';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Nav />
         <Route path="/Landing" component={Landing} />
         <Route path="/CoursePage" component={CoursePage} />
-        
+        <Route path="/interactionMajor" component={interactionMajor} />
      </Router>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/CoursePage.css';
+import { Link } from "react-router-dom";
 
 import HalfStar from '../../assets/half-star.png';
 import Star from '../../assets/star.png';
@@ -13,7 +14,9 @@ export default function CoursePage() {
             <div className="title-div">
                 <div className="title-wrap">
                     <div className="return">
-                        <h4>Return</h4>
+                        <Link to ="/interactionMajor" style={{ textDecoration: 'none', color: 'black' }} >
+                            <h4>Return</h4>
+                        </Link>
                     </div>
                     <div className="div-title">
                         <h1>IXXN221</h1>
@@ -163,7 +166,9 @@ export default function CoursePage() {
                     <h1>Course Ranking</h1>
                 </div>
                 <div className="ranking-div">
-                    <img src= { RankingBackdrop } alt="Background to Course Ranking"/>
+                    <div className="backdrop">
+                        <img src= { RankingBackdrop } alt="Background to Course Ranking"/>
+                    </div>
                     <div className="ranking-box">
                         <div className="ranking-title">
                             <h1>4.5</h1>
@@ -171,19 +176,19 @@ export default function CoursePage() {
                         </div>
                         <div className="ranking-star">
                             <div className="main-star">
-                            <img src= { Star }  alt="Star" />
+                                <img src= { Star }  alt="Star" />
                             </div>
                             <div className="main-star">
-                            <img src= { Star }  alt="Star" />
+                                <img src= { Star }  alt="Star" />
                             </div>
                             <div className="main-star">
-                            <img src= { Star }  alt="Star" />
+                                <img src= { Star }  alt="Star" />
                             </div>
                             <div className="main-star">
-                            <img src= { Star }  alt="Star" />
+                                <img src= { Star }  alt="Star" />
                             </div>
                             <div className="main-star">
-                            <img src= { HalfStar }  alt="Star" />
+                                <img src= { HalfStar }  alt="Star" />
                             </div>
                         </div>
                     </div>
