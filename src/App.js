@@ -7,13 +7,13 @@ import { Provider } from "./context/GlobalContextProvider";
 import Landing from "./pages/js/Landing";
 import InteractionPapers from "./pages/js/InteractionPapers";
 import "./App.css";
-
 import Nav from "./components/js/Nav";
 import Footer from "./components/js/Footer";
 
 function App() {
   return (
     <div className="App">
+
 
       <Provider>
         <Router>
@@ -22,6 +22,7 @@ function App() {
           <Route path="/Interaction-papers/:id" component={InteractionPapers} />
         </Router>
       </Provider>
+      <Footer />
 
     </div>
   );

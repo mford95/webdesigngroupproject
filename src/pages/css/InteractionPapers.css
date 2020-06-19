@@ -15,6 +15,10 @@
     align-items: flex-end;
     height: 85vh;
     width: 85vw;
+<<<<<<< HEAD
+=======
+    margin-bottom: 5vh;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .title-wrap{
@@ -29,13 +33,20 @@
 .return{
     display: flex;
     justify-content: flex-start;
+<<<<<<< HEAD
     width: 15vw;
     height: 5.5vh;
+=======
+    width: 6.25vw;
+    height: 5.5vh;
+    
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .return h4{
     font-size: 1.5em;
     margin: 0;
+<<<<<<< HEAD
     font-weight: 600;
 }
 
@@ -43,17 +54,45 @@
     display: flex;
     justify-content: flex-start;
     width: 50vw;
+=======
+    height: 5vh;
+    font-weight: 600;
+    border-bottom: 0.5vh solid black;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.return h4:hover{
+    transition: all 0.1s ease-in;
+    border-bottom: 1.25vh solid #FFD700;
+    cursor: pointer;
+}
+
+
+.div-title{
+    display: flex;
+    justify-content: flex-start;
+    width: 70vw;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
     height: 12.5vh;
 }
 
 .div-title h1{
     font-size: 4em;
     margin: 0;
+<<<<<<< HEAD
+=======
+    text-align: left;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .div-title h2{
     font-size: 3em;
     margin: 0;
+<<<<<<< HEAD
+=======
+    text-align: left;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .course-title-info{
@@ -67,9 +106,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+<<<<<<< HEAD
     text-align: start;
     width: 45vw;
     height: 40vh; 
+=======
+    justify-content: space-between;
+    text-align: start;
+    width: 45vw;
+    height: 27.5vh; 
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .title-text h2{
@@ -77,6 +123,14 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.title-text p{
+    width: 40vw;
+    height: 15vh;
+}
+
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 .course-points-div{
     display: flex;
     align-items: center;
@@ -92,7 +146,11 @@
     align-items: center;
     width: 12.5vw;
     height: 25vh;
+<<<<<<< HEAD
     background-color: yellow;
+=======
+    background-color: #FFD700;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .points-block h1{
@@ -151,7 +209,11 @@
     align-items: center;
     height: 50vh;
     width: 100vw;
+<<<<<<< HEAD
     background-color: yellow;
+=======
+    background-color: #FFD700;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .info-box{
@@ -179,13 +241,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+<<<<<<< HEAD
     height: 600vh;
     width: 85vw;
+=======
+    height: 275vh;
+    width: 85vw;
+    margin-bottom: 10vh;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .course-project{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     justify-content: space-evenly;
     height: 115vh;
     width: auto;
@@ -197,6 +266,24 @@
     text-align: start;
 }
 
+=======
+    justify-content: space-around;
+    height: 95vh;
+    width: auto;
+}
+
+.project-blurb {
+    width: 75vw;
+    height: 15vh;
+    text-align: start;
+}
+
+.project-blurb p{
+    width: 50vw;
+}
+
+
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 .image-slideshow{
     display: grid;
     grid-gap: calc(var(--gutter) / 2);
@@ -229,28 +316,129 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+<<<<<<< HEAD
     height: 100vh;
     width: 85vw;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     padding-bottom: 10vh;
+=======
+    height: 115vh;
+    width: 85vw;
+    padding-bottom: 30vh;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .ranking-div{
     width: 45vw;
     height: 30vh;
+<<<<<<< HEAD
     background-color: violet;
+=======
+}
+
+.backdrop{
+    position: absolute;
+}
+
+.backdrop img{
+    height: 30vh;
+    width: auto;
+    z-index: 0;
+    left: 7.5vw;
+}
+
+
+.ranking-star{
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 7.5vh;
+}
+
+.main-star{
+    width: 3.5vw;
+    height: 6vh;
+    z-index: 100;
+}
+
+.main-star img{
+    width: 3.5vw;
+    height: auto;
+    z-index: 110;
+    padding-right: 10vw;
+}
+
+
+
+.ranking-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 16.5vw;
+    height: 17.5vh;
+    z-index: 100;
+}
+
+.ranking-title h1{
+    font-size: 6.5em;
+    margin: 0;
+}
+
+.ranking-title h3{
+    font-size: 3.5em;
+    margin: 0;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
 
 .feedback-div{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     width: 80vw;
+=======
+    width: 85vw;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
     height: 35vh;
 }
 
 .feedback{
+<<<<<<< HEAD
     height: auto;
     width: 20vw;
     background-color: blue;
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 22.5vw;
+}
+
+.feedback h3, p{
+    text-align: left;
+    width: 20vw;
+    margin: 0;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 7.5vh;
+}
+
+.star{
+    width: 3vw;
+    height: 6vh;
+}
+
+.star img{
+    width: 2.75vw;
+    height: auto;
+>>>>>>> 5b193c3adc789c570e81299555aa872b49327a64
 }
