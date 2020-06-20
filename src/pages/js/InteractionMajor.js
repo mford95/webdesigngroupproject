@@ -86,6 +86,107 @@ export default function InteractionMajor() {
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        
+                    </div>
+                </div>
+                <div className="level-paper-holder">
+                    <div className="tri-heading">
+                    <h2>Trimester 2</h2>
+                    </div>
+                    <div className="paper-thumbnail-holder">
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                    </div>
+                </div>
+                <div className="Level-papers-div">
+                <div className="Level-heading-div">
+                    <h1>200 Level</h1>
+                    </div>
+                    </div>
+                    <div className="level-paper-holder">
+                    <div className="tri-heading">
+                    <h2>Trimester 1</h2>
+                    </div>
+                    <div className="paper-thumbnail-holder">
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="level-paper-holder">
+                    <div className="tri-heading">
+                    <h2>Trimester 2</h2>
+                    </div>
+                    <div className="paper-thumbnail-holder">
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div className="Level-papers-div">
+                <div className="Level-heading-div">
+                    <h1>300 Level</h1>
+                    </div>
+                    </div>
+                    <div className="level-paper-holder">
+                    <div className="tri-heading">
+                    <h2>Trimester 1</h2>
+                    </div>
+                    <div className="paper-thumbnail-holder">
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                    </div>
+                </div>
+                <div className="level-paper-holder">
+                    <div className="tri-heading">
+                    <h2>Trimester 2</h2>
+                    </div>
+                    <div className="paper-thumbnail-holder">
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                        <div className="paper-thumbnail-box">
+
+                        </div>
+                    
                     </div>
                 </div>
         </div>

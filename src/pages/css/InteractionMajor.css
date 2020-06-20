@@ -97,6 +97,7 @@
     height: 50vh;
     width: 100vw;
     background-color: yellow;
+    margin-bottom: 10vh;
 }
 
 .info-box{
@@ -106,6 +107,7 @@
     justify-content: center;
     height: 35vh;
     width: 25vw;
+    
 }
 
 .info-box h1{
@@ -123,7 +125,6 @@
     flex-direction: column;
     width: 90vw;
     margin-left: auto;
-    margin-top: 20vh;
 }
 
 .Level-papers-heading{
@@ -166,6 +167,7 @@ flex-direction: row;
 
 .Level-heading-div{
     font-size: 1em;
+    display: flex;
     margin-top: 10vh;
     width: 11vw;
     
@@ -177,21 +179,34 @@ flex-direction: row;
 
 .level-paper-holder{
 display: flex;
+flex-direction: column;
+width: 80vw;
+height: 50vh;
 }
 
 .tri-heading{
+    display: flex;
     font-size: 1em;
-    margin-top: 10vh;
     width: 11vw;
+    
 }
 
 .tri-heading h2{
-
+    text-decoration: underline green;
 }
 .paper-thumbnail-holder{
-
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
 }
 
 .paper-thumbnail-box{
+display: flex;
+margin-right: 40px;
+width: 230px;
+height: 230px;
+background-color:green;
+
+
 
 }
