@@ -1,18 +1,27 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/GlobalContextProvider";
+import {Link} from "react-router-dom";
 import '../css/InteractionMajor.css';
 import interactionHero from '../../assets/interactionImg.png';
+
 
 export default function InteractionMajor() {
 
     const { state, fetchInteraction } = useContext(Context);
     const { interaction } = state;
+    const [oneHundred, setoneHundred] = useState(null);
+    const [twoHundred, settwoHundred] = useState(null);
+    const [threeHundred, setthreeHundred] = useState(null);
+
     useEffect(() => {
        !interaction.length && fetchInteraction();
       }, []);
        
       useEffect(() => {
-        console.log(interaction);
+        console.log(interaction.filter(i => i.fields.level === 200));
+        setoneHundred(interaction.filter(i => i.fields.level === 100));
+        settwoHundred(interaction.filter(i => i.fields.level === 200));
+        setthreeHundred(interaction.filter(i => i.fields.level === 300));
        }, [interaction]);
        
     return (
@@ -77,14 +86,29 @@ export default function InteractionMajor() {
                     <h2>Trimester 1</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
+                        </div>
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
+                        </div>
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
+                        </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
                         </div>
                         
                     </div>
@@ -94,17 +118,37 @@ export default function InteractionMajor() {
                     <h2>Trimester 2</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
+                    <div className="box-div">
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
+                        </div>
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
+                        </div>
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
                         </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
+                        </div>
+                        <div className="box-div">
                         <div className="paper-thumbnail-box">
 
+                        </div>
+                        <div className="thumbnail-title">
+                            <h3>INDN111</h3>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -118,15 +162,20 @@ export default function InteractionMajor() {
                     <h2>Trimester 1</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
+                        {twoHundred && twoHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            <div className="paper-thumbnail-box">
+    
+                            </div>
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
+                    
+                       
                         
                     </div>
                 </div>

@@ -210,3 +210,13 @@ background-color:green;
 
 
 }
+.box-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail-title{
+   
+    width: 115px;
+}
