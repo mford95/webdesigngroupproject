@@ -86,30 +86,18 @@ export default function InteractionMajor() {
                     <h2>Trimester 1</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
+                    {oneHundred && oneHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            <div className="paper-thumbnail-box">
+    
+                            </div>
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
                         
                     </div>
                 </div>
@@ -118,38 +106,18 @@ export default function InteractionMajor() {
                     <h2>Trimester 2</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                    <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
-                        <div className="box-div">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="thumbnail-title">
-                            <h3>INDN111</h3>
-                        </div>
-                        </div>
+                    {oneHundred && oneHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            <div className="paper-thumbnail-box">
+    
+                            </div>
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
                     </div>
                 </div>
                 <div className="Level-papers-div">
@@ -174,9 +142,6 @@ export default function InteractionMajor() {
                             </div>
                             </Link>
                             )}
-                    
-                       
-                        
                     </div>
                 </div>
                 <div className="level-paper-holder">
@@ -184,12 +149,18 @@ export default function InteractionMajor() {
                     <h2>Trimester 2</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
+                    {twoHundred && twoHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            
+                            <img className="paper-thumbnail-box" src={interactionHero} alt="" />
+                            
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
                     
                     </div>
                 </div>
@@ -204,18 +175,18 @@ export default function InteractionMajor() {
                     <h2>Trimester 1</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
+                    {threeHundred && threeHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            <div className="paper-thumbnail-box">
+    
+                            </div>
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
                     </div>
                 </div>
                 <div className="level-paper-holder">
@@ -223,18 +194,18 @@ export default function InteractionMajor() {
                     <h2>Trimester 2</h2>
                     </div>
                     <div className="paper-thumbnail-holder">
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
-                        <div className="paper-thumbnail-box">
-
-                        </div>
+                    {threeHundred && threeHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
+                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <div className="box-div">
+                            <div className="paper-thumbnail-box">
+    
+                            </div>
+                            <div className="thumbnail-title">
+                            <h3>{i.fields.courseCode}</h3>
+                            </div>
+                            </div>
+                            </Link>
+                            )}
                     
                     </div>
                 </div>

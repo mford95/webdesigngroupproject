@@ -195,7 +195,13 @@ height: 50vh;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
+text-decoration: none;
 }
+.paper-thumbnail-holder a{
+    
+    text-decoration: none;
+    color: black;
+    }
 
 .paper-thumbnail-box{
 display: flex;
@@ -203,10 +209,15 @@ margin-right: 40px;
 width: 230px;
 height: 230px;
 background-color:green;
-
-
-
 }
+.paper-thumbnail-box img{
+    display: flex;
+    margin-right: 40px;
+    width: 230px;
+    height: 230px;
+    background-color:green;
+    }
+
 .box-div{
     display: flex;
     flex-direction: column;
