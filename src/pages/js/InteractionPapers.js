@@ -2,6 +2,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../../context/GlobalContextProvider";
 import '../css/InteractionPapers.css';
+import '../css/ResponsivePaperPage.css';
 import { Link } from "react-router-dom";
 
 import HalfStar from '../../assets/half-star.png';

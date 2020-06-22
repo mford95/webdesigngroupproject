@@ -19,7 +19,7 @@ function App() {
         <Router>
           <Nav />
           <Route path="/Landing" component={Landing} />
-          <Route path="/Interaction-papers/:id" component={InteractionPapers} />
+          <Route path="/Interaction-Papers/:id" component={InteractionPapers} />
         </Router>
       </Provider>
       <Footer />
