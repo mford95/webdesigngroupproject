@@ -2,6 +2,18 @@
   /* text-align: center; */
 }
 
+
+.App {
+  /* text-align: center; */
+  position: relative;
+  min-height:100%; 
+  padding-bottom: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  
+  overflow: hidden;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
