@@ -15,7 +15,7 @@
     justify-content: center;
     flex-direction: row;
     height: 85vh;
-    width: 70vw;
+    width: 80vw;
 }
 
 .title-wrap{
@@ -52,10 +52,7 @@
     margin: 0;
 }
 
-.div-title h2{
-    font-size: 3em;
-    margin: 0;
-}
+
 
 .course-title-info{
     display: flex;
@@ -133,7 +130,7 @@
     height: 12.5vh;
 }
 .Level-papers-heading h1{
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 0;
 }
 .Level-papers-info{
@@ -187,7 +184,7 @@ height: 50vh;
 .tri-heading{
     display: flex;
     font-size: 1em;
-    width: 11vw;
+    width: 15vw;
     
 }
 
@@ -220,3 +217,120 @@ background-color:green;
    
     width: 115px;
 }
+
+
+@media only screen and (max-width: 596px) {
+    .interactionBody{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50vh;
+    }
+    .title-div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    height: 75vh;
+    width: 70vw;
+}
+
+.title-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 75vh;
+    width: 90vw;
+}
+
+.return{
+    display: none;
+    
+}
+
+.course-title-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    height: 40vh;
+}
+
+.title-text{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    width: 90vw;
+   
+}
+
+.course-hero-div{
+   display: none;
+}
+.info-box h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+.info-box h3{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-box{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.paper-thumbnail-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .box-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .paper-thumbnail-box{
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 230px;
+        height: 230px;
+        background-color:green;
+        
+        
+        
+        }
+    .thumbnail-title{
+     display: flex;
+     justify-content: center;
+    }
+
+    .level-paper-holder{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+        }
+        .tri-heading{
+        display: flex;
+        font-size: 1em;
+        width: 50vw;
+            
+        }
+        .Level-heading-div{
+            font-size: 1em;
+            display: flex;
+            margin-top: 10vh;
+            width: 50vw;
+            
+        }
+  }
