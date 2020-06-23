@@ -24,7 +24,7 @@ function App() {
 
           <Route path="/InteractionMajor" component={InteractionMajor} />
           <Route path="/Interaction-Papers/:id" component={InteractionPapers} />
-          <Route path="/CoursePage" component={CoursePage} />
+         
 
         </Router>
       </Provider>

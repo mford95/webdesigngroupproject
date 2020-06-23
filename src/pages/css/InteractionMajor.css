@@ -140,6 +140,9 @@
     width: 80vw;
     margin-top: 5vh;
 }
+.Level-papers-info p{
+    width: auto;
+}
 
 .color-code-holder{
 display: flex;
