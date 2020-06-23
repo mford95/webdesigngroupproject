@@ -14,7 +14,7 @@ import vicLogo from "../../assets/footer/vicLogo.png"
 export default class Footer extends Component {
     render() {
         return (
-            <div>
+            
 
             <div className="Holder">
                 <div className="joinBox">
@@ -34,7 +34,11 @@ export default class Footer extends Component {
                         <div className="contactImg">
                             <img className="ImgSize" src={locationImg} alt='' ></img> 
 
-                            
+                            </div>
+                            <div className= "contactText">
+                                    <p>Wellington, New Zealand</p>
+                                </div>
+                            </div>
                             <div className="contactHolder">
                                 <div className="contactImg">
                                     <img className="ImgSize" src={phoneImg} alt='Phone symbol' ></img> 
@@ -74,7 +78,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }

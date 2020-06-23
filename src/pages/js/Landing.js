@@ -17,7 +17,7 @@ import communicationImg from "../../assets/communicationImg.png";
 
 export default function Landing() {
     return (
-        <div>
+        <div className="holder">
             <div className="landing-section">
                 <div className="landing-section-text">
                     <h1>School of Design</h1>

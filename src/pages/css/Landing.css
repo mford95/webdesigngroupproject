@@ -1,3 +1,4 @@
+
 .landing-section, .major-description{
     max-width: 80%;
     margin-left: auto;
@@ -189,7 +190,9 @@
 
 
 @media (max-width: 596px){
-
+.holder{
+  padding-bottom: 70vh;
+}
   .landing-section-text h1{
       font-size: 320%;
   }
