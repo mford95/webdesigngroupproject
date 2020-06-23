@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import "../css/Footer.css";
 import {Link} from "react-router-dom";
 
-import contactImg from "../../assets/footer/contact.png"
+import emailImg from "../../assets/footer/email.png"
 import locationImg from "../../assets/footer/location.png"
 import phoneImg from "../../assets/footer/phone.png"
 import socialFb from "../../assets/footer/facebook.png"
@@ -15,6 +15,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
+
             <div className="Holder">
                 <div className="joinBox">
                     <div className="joinLeft">
@@ -32,52 +33,46 @@ export default class Footer extends Component {
 
                         <div className="contactImg">
                             <img className="ImgSize" src={locationImg} alt='' ></img> 
+
                             
+                            <div className="contactHolder">
+                                <div className="contactImg">
+                                    <img className="ImgSize" src={phoneImg} alt='Phone symbol' ></img> 
+                                </div>
+                                <div className= "contactText">
+                                    <p>04 463 6200</p>
+                                </div>
+                            </div>
+
+                            <div className="contactHolder">
+                                <div className="contactImg">
+                                    <img className="ImgSize email" src={emailImg} alt='Mail symbol' ></img> 
+                                </div>
+                                <div className= "contactText">
+                                    <p>foad@vuw.ac.nz</p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className= "contactText">
-                        <p>139 Vivian Street, Te Aro, Wellington</p>
+                        <div className="rightSide">
+                            <div className="logoHolder">
+                                <a href="https://www.wgtn.ac.nz/" target="_blank"><img className="vicLogo" src={vicLogo} alt='Victoria University of Wellington logo' ></img></a>
+                            </div>
                         </div>
-                        
                     </div>
 
-                    <div className="contactHolder">
-                        <div className="contactImg">
-                            <img className="ImgSize" src={phoneImg} alt='' ></img> 
-                        </div>
-                        <div className= "contactText">
-                        <p>04 463 6200</p>
-                        </div>
-                        
-                    </div>
-                    <div className="contactHolder">
-                        <div className="contactImg">
-                            <img className="ImgSize" src={contactImg} alt='' ></img> 
-                        </div>
-                        <div className= "contactText">
-                        <p>foad@vuw.ac.nz</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                 <div className="rightSide">
-                    <div className="logoHolder">
-                    <img className="vicLogo" src={vicLogo} alt='' ></img> 
-                    </div>
-                </div>
 
-                </div>
-                <div className="socialContainer">
-                <div className="middleSocial">
-                    <img className="socialImg" src={socialFb} alt='' ></img> 
-                    <img className="socialImg" src={socialIg} alt='' ></img> 
-                    <img className="socialImg" src={socialTiktok} alt='' ></img> 
-                    <img className="socialImg" src={socialBehance} alt='' ></img> 
+                    <div className="socialContainer">
+                        <div className="middleSocial">
+                            <a className="shortcut-links-hover" href="https://www.facebook.com/" target="_blank"><img className="socialImg shortcut" src={socialFb} alt='Facebook logo' ></img></a>
+                            <a className="shortcut-links-hover" href="https://www.instagram.com/" target="_blank"><img className="socialImg" src={socialIg} alt='Instagram logo' ></img></a>
+                            <a className="shortcut-links-hover" href="https://www.tiktok.com/en/" target="_blank"><img className="socialImg" src={socialTiktok} alt='TikTok logo' ></img></a>
+                            <a className="shortcut-links-hover" href="https://www.behance.net/" target="_blank"><img className="socialImg" src={socialBehance} alt='Behance logo' ></img></a>
+                        </div>
+                        <div className="middleCopy">
+                            <h6>Copyright © Victoria University of Wellington, New Zealand</h6>
+                        </div>
                     </div>
-                    <div className="middleCopy">
-                    <h6>Copyright © Victoria University of Wellington, New Zealand</h6>
-                    </div>
-                </div>
                 </div>
             </div>
         )

@@ -24,3 +24,40 @@
 .stats-individual h2{
     font-size: 200%;
 }
+
+
+
+@media (max-width: 596px){
+
+    .stats-section{
+        margin-bottom: 0vh;
+    }
+
+    .stats-individual{
+        font-size: 105%;
+        line-height: 20%;
+    }
+
+  }
+
+
+@media (max-width: 426px){
+
+    .stats-section{
+        margin-bottom: 15vh;
+    }
+
+    .stats-text{
+        width: 90%;
+    }
+
+    .stats-individual{
+        font-size: 85%;
+        line-height: 20%;
+    }
+    
+    .stats-individual h2{
+        font-size: 250%;
+    }
+    
+}

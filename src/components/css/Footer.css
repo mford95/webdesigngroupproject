@@ -1,8 +1,8 @@
 .Holder{
-position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
 }
 
 .mainContainer{
@@ -17,11 +17,12 @@ left: 0;
 .leftSide{
    display: flex;
    flex-direction: column;
-   width: 25vw;
+   width: 45vw;
    height: 25vh;
    border-left: 5px solid white;
    margin-top: auto;
    margin-bottom: auto;
+   font-size: 110%;
 }
 .contactHolder{
    display: flex;
@@ -38,13 +39,21 @@ left: 0;
    margin-top: auto;
    margin-bottom: auto;
 }
+
 .contactText{
    margin-top: auto;
    margin-bottom: auto;
    margin-left: 20px;
    color: white;
+   line-height: 100%;
+
 }
+
 .ImgSize{
+   width: 25px;
+}
+
+.email{
    width: 25px;
 }
 
@@ -55,31 +64,36 @@ left: 0;
    margin-top: auto;
    margin-bottom: auto;
 }
+
 .logoHolder{
    margin-top: auto;
    margin-bottom: auto;
-   
    padding: 5%;
 }
+
 .vicLogo{
    width: 25vw;
 }
+
 .socialContainer{
    display: flex;
    flex-direction: column;
-   
 }
+
 .middleSocial{
    margin-top: 3%;
    margin-bottom: auto;
    justify-content: center;
    display: flex;
    flex-direction: row;
-   }
+}
+
 .socialImg{
-   width: 2vw;
-   padding: 10px;
-      }
+   width: 3vw;
+   padding: 0 10px;
+}
+
+
 .middleCopy{
    margin: auto;
 }
@@ -106,7 +120,80 @@ left: 0;
 .joinRight{
    margin-top: auto;
    margin-bottom: auto;
-   margin-right: 20vw;
+   top: 0;
+   text-align: center;
+}
+
+@media (max-width: 1120px){
+
+.vicLogo{
+   margin-top: 2.5vh;
+}
+
+}
+
+
+@media (max-width: 770px){
+
+   .contactHolder{
+      margin-left: 5%;
+   }
+
+   .leftSide{
+      width: 45vw;
+   }
+
+   .contactText{
+      line-height: 100%;
+   }
+
+   .rightSide{
+      width: 40vw;
+      vertical-align: middle;
+      text-align: center;
+      display: table-cell;
+   }
+
+   .vicLogo{
+      width: 100%;
+      margin-top: 2.5vh;
+   }
+
+   .socialImg{
+      width: 5vw;
+   }
+}
+
+
+@media (max-width: 596px){
+
+   .mainContainer{
+      flex-direction: column;
+      width: 100%;
+      height: 8%;
+      margin-bottom: 2vh;
+   }
+
+   .leftSide, .rightSide{
+      width: 80%;
+      height: 100%;
+      margin: 5vh auto;
+   }
+
+   .vicLogo, .rightSide{
+      width: 100%;
+      display: none;
+   }
+
+   .socialContainer{
+      margin: 0vh 0;
+   }
+
+   .socialImg{
+      width: 8vw;
+   }
+
+ 
 }
 .joinRight button{
    background-color: #6ABD45;
@@ -121,4 +208,5 @@ left: 0;
 .joinRight button:hover{
    background-color: #5dad39;
    text-decoration: underline;
+
 }
