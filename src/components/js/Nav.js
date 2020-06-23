@@ -11,7 +11,14 @@ export default function Nav() {
                 <NavLink to="Careers" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Careers</NavLink>
                 <NavLink to="Resources" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Resources</NavLink>
                 <NavLink to="Levels" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Levels</NavLink>
+                <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#">Careers</a>
+            <a href="#">Resources</a>
+            <a href="#">Levels</a>
             
+        </div>
             </nav>
 
         </div>
