@@ -1,0 +1,2736 @@
+
+@media only screen and (min-width: 319px) {
+
+    /* .nav-container{
+        display: none;
+    } */
+
+    /* .Holder{
+        display: none;
+    } */
+
+/* Title Section */
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80vw;
+        margin-bottom: 5vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 90vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 80vh;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 2.5em;
+    }
+
+    .div-title h2{
+        font-size: 1.5em;
+        /* margin-bottom: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80vw;
+        height: 65vh;
+    }
+    
+    .course-points-div{
+        height: 25vh;
+        width: 40vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        height: 20vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 3.75em;
+        margin: 0;
+        margin-top: 2vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .title-text{
+        width: 80vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 1.5em;
+    }
+    
+    .title-text p{
+        width: 80vw;
+        height: 25vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        width: 110vw;
+        height: 200vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(35vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 90vw;
+        height: 30vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200vh;
+        width: 85vw;
+        padding-bottom: 30vh;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .backdrop img{
+        height: 25vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 70vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 12.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+
+
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .feedback h3, p{
+        width: 80vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        /* width: 60vw; */
+    }
+
+    .star-rating{
+        width: 80vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 15vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 374px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+/* Title Section */
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80vw;
+        margin-bottom: 5vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 90vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 80vh;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 2.5em;
+    }
+
+    .div-title h2{
+        font-size: 1.5em;
+        /* margin-bottom: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80vw;
+        height: 65vh;
+    }
+    
+    .course-points-div{
+        height: 25vh;
+        width: 40vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        height: 20vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 3.75em;
+        margin: 0;
+        margin-top: 2vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .title-text{
+        width: 80vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 1.5em;
+    }
+    
+    .title-text p{
+        width: 80vw;
+        height: 25vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        width: 110vw;
+        height: 200vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(35vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 90vw;
+        height: 30vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200vh;
+        width: 85vw;
+        padding-bottom: 30vh;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .backdrop img{
+        height: 25vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 70vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 12.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+
+
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .feedback h3, p{
+        width: 80vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        /* width: 60vw; */
+    }
+
+    .star-rating{
+        width: 80vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 15vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 424px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+/* Title Section */
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80vw;
+        margin-bottom: 5vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 90vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 80vh;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 2.5em;
+    }
+
+    .div-title h2{
+        font-size: 1.5em;
+        /* margin-bottom: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80vw;
+        height: 65vh;
+    }
+    
+    .course-points-div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 25vh;
+        width: 40vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        height: 20vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 3.75em;
+        margin: 0;
+        margin-top: 2vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .title-text{
+        width: 80vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 1.5em;
+    }
+    
+    .title-text p{
+        width: 80vw;
+        height: 22.5vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        width: 110vw;
+        height: 200vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(35vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 85vw;
+        height: 35vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        height: 200vh;
+        width: 85vw;
+        margin-bottom: 30vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .backdrop img{
+        height: 25vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 70vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 12.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+
+
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .feedback h3, p{
+        width: 80vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        /* width: 60vw; */
+    }
+
+    .star-rating{
+        width: 60vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 15vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 574px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+/* Title Section */
+
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 80vw;
+        margin-bottom: 0;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 60vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 80vh;
+        margin-top: 0;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 2.5em;
+    }
+
+    .div-title h2{
+        font-size: 1.5em;
+        /* padding-top: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 80vw;
+        height: 30vh;
+    }
+    
+    .course-points-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 25vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+        height: 17.5vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 3.5em;
+        margin: 0;
+        margin-top: 1.25vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.25em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .title-text{
+        width: 50vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 1.5em;
+    }
+    
+    .title-text p{
+        width: 55vw;
+        height: 25vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 0;
+        margin-bottom: 10vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1.25em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        width: 110vw;
+        height: 200vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(55vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 90vw;
+        height: 55vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200vh;
+        width: 85vw;
+        margin-bottom: 30vh;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }   
+
+    .backdrop img{
+        height: 30vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5.5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 55vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 9.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 140vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+        height: 35vh;
+    }
+
+    .feedback h3, p{
+        width: 60vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        line-height: 1.35em;
+    }
+
+    .star-rating{
+        width: 40vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 10vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 767px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+/* Title Section */
+
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 80vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+
+    .return h4{
+        font-size: 1.5em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 75vh;
+        margin-top: 0;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 4em;
+    }
+
+    .div-title h2{
+        font-size: 2.5em;
+        /* padding-top: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        height: 45vh;
+    }
+
+
+    .course-points-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 25vw;
+    }
+
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 17.5vw;
+        height: 20vh;
+        background-color: #FFD700;
+    }
+
+    .points-block h1{
+        font-size: 4em;
+        margin-top: 1.5vh;
+        margin-right: 1.5vh;
+    }
+
+    .points-block h4{
+        font-size: 1.75em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .title-text{
+        display: flex;
+        justify-content: space-between;
+        width: 55vw;
+        height: 40vh; 
+    }
+
+    .title-text h2{
+        font-size: 2.5em;
+        width: 50vw;
+    }
+
+    .title-text p{
+        width: 60vw;
+        height: 15vh;
+        font-size: 1.25em;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 0;
+        margin-bottom: 15vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1.25em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 45vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 2.25em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 110vw;
+        height: 250vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+        margin-top: 2.5vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(65vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 80vw;
+        height: 65vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110vh;
+        width: 90vw;
+        margin-bottom: 40vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }   
+
+    .backdrop img{
+        height: 30vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5.5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 45vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 7.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 50vh;
+        width: 85vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .feedback h3, p{
+        width: 25vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        line-height: 1.35em;
+    }
+
+    .star-rating{
+        width: 22.5vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 10vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1023px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+
+/* Title Section */
+
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        width: 80vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 75vh;
+        margin-top: 0;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 4em;
+    }
+
+    .div-title h2{
+        font-size: 2.75em;
+        /* padding-top: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        height: 45vh;
+    }
+
+    
+    .course-points-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 25vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 22.5vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 4.5em;
+        margin-top: 1.25vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 12.5vh;
+    }
+
+    .title-text{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50vw;
+        height: 45vh; 
+    }
+    
+    .title-text h2{
+        font-size: 2.5em;
+    }
+    
+    .title-text p{
+        width: 55vw;
+        height: 15vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        width: 80vw;
+        margin-top: 0;
+        margin-bottom: 15vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1.25em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 45vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 110vw;
+        height: 275vh;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+        margin-top: 10vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        height: 15vh;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .image-slideshow{
+        width: 85vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(80vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 75vw;
+        height: 80vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110vh;
+        width: 90vw;
+        margin-bottom: 40vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }   
+
+    .backdrop img{
+        height: 30vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 2.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5.5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 30vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 50vh;
+        width: 85vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .feedback h3, p{
+        width: 25vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        line-height: 1.35em;
+    }
+
+    .star-rating{
+        width: 22.5vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 10vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1219px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+
+/* Title Section */
+
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 80vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.5em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 75vh;
+        margin-top: 0;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 4.5em;
+    }
+
+    .div-title h2{
+        font-size: 2.75em;
+        /* padding-top: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        height: 45vh;
+    }
+
+    
+    .course-points-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 25vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12.5vw;
+        height: 22.5vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 5em;
+        margin-top: 1.5vh;
+    }
+    
+    .points-block h4{
+        font-size: 2em;
+        margin: 0;
+        margin-bottom: 12.5vh;
+    }
+
+    .title-text{
+        display: flex;
+        justify-content: space-between;
+        width: 55vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 3em;
+        width: 50vw;
+    }
+    
+    .title-text p{
+        width: 50vw;
+        height: 15vh;
+        font-size: 1.25em;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        width: 80vw;
+        margin-top: 0;
+        margin-bottom: 20vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1.5em;  
+        width: 60vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 3.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 110vw;
+        height: 300vh;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 140vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+        margin-top: 10vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+        margin-bottom: 10vh;
+    }
+
+    .project-blurb p{
+        width: 60vw;
+        height: 15vh;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+    .image-slideshow{
+        width: 85vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(75vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 60vw;
+        height: 75vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120vh;
+        width: 90vw;
+        margin-bottom: 40vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }   
+
+    .backdrop img{
+        height: 30vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 2.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 7.5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 4em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 27.5vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 22.5vw;
+        height: 40vh;
+    }
+
+    .feedback h3, p{
+        width: 22.5vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        line-height: 1.35em;
+    }
+
+    .star-rating{
+        width: 22.5vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 10vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1439px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+
+/* Title Section */
+
+    .title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 80vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
+    }
+
+    .return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .return h4{
+        font-size: 1.5em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .title-div{
+        height: 75vh;
+        margin-top: 0;
+    }
+
+    .div-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .div-title h1{
+        font-size: 4.5em;
+    }
+
+    .div-title h2{
+        font-size: 2.75em;
+        /* padding-top: 5vh; */
+    }
+
+    .course-title-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+        height: 45vh;
+    }
+
+    
+    .course-points-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 25vh;
+        width: 25vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 12.5vw;
+        height: 22.5vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 5em;
+        margin-top: 1.5vh;
+    }
+    
+    .points-block h4{
+        font-size: 2em;
+        margin: 0;
+        margin-bottom: 12.5vh;
+    }
+
+    .title-text{
+        display: flex;
+        justify-content: space-between;
+        width: 55vw;
+        height: 40vh; 
+    }
+    
+    .title-text h2{
+        font-size: 3em;
+        width: 50vw;
+    }
+    
+    .title-text p{
+        width: 50vw;
+        height: 15vh;
+        font-size: 1.25em;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        width: 80vw;
+        margin-top: 0;
+        margin-bottom: 20vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1.5em;  
+        width: 60vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .course-info-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .info-box{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .info-box h1{
+        font-size: 3.5em;
+        margin: 0;
+    }
+
+    .info-box h3{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 110vw;
+        height: 300vh;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 140vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+        margin-top: 10vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+        margin-bottom: 10vh;
+    }
+
+    .project-blurb p{
+        width: 60vw;
+        height: 15vh;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+    .image-slideshow{
+        width: 85vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(75vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 60vw;
+        height: 75vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120vh;
+        width: 90vw;
+        margin-bottom: 40vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }   
+
+    .backdrop img{
+        height: 30vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 2.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 7.5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 4em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 27.5vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 22.5vw;
+        height: 40vh;
+    }
+
+    .feedback h3, p{
+        width: 22.5vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        line-height: 1.35em;
+    }
+
+    .star-rating{
+        width: 22.5vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 10vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
