@@ -7,6 +7,8 @@
     width: 100vw;
     overflow-x: hidden;
     padding-bottom: 50vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-div{
@@ -127,7 +129,8 @@
 .Level-papers-heading{
     display: flex;
     justify-content: flex-start;
-    height: 12.5vh;
+    width: 30vw;
+    
 }
 .Level-papers-heading h1{
     font-size: 3.5em;
@@ -145,8 +148,8 @@
 }
 
 .color-code-holder{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -178,10 +181,11 @@ flex-direction: row;
 }
 
 .level-paper-holder{
-display: flex;
-flex-direction: column;
-width: 80vw;
-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 50vh;
+    margin-bottom: 8vh;
 }
 
 .tri-heading{
@@ -195,41 +199,43 @@ height: 50vh;
     text-decoration: underline green;
 }
 .paper-thumbnail-holder{
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+
 }
 .paper-thumbnail-holder a{
-    
     text-decoration: none;
     color: black;
     }
 
 .paper-thumbnail-box{
-display: flex;
-margin-right: 40px;
-width: 230px;
-height: 230px;
-background-color:green;
+    display: flex;
+    width: 230px;
+    height: 230px;
+
+}
+.link-margin{
+    margin-right: 40px;
+    
 }
 .paper-thumbnail-box img{
     display: flex;
-    margin-right: 40px;
-    width: 230px;
-    height: 230px;
-    background-color:green;
+    position: relative;
+    left: -50%;
     }
 
 .box-div{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .thumbnail-title{
-   
-    width: 115px;
+    
+    
 }
 
 
@@ -241,68 +247,68 @@ background-color:green;
         margin-bottom: 50vh;
     }
     .title-div{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row;
-    height: 75vh;
-    width: 70vw;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: row;
+        height: 75vh;
+        width: 70vw;
 }
 
 .title-wrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    height: 75vh;
-    width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 75vh;
+        width: 90vw;
 }
 
 .return{
-    display: none;
+        display: none;
     
 }
 
 .course-title-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 90vw;
-    height: 40vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90vw;
+        height: 40vh;
 }
 
 .title-text{
-    display: flex;
-    align-items: flex-start;
-    text-align: start;
-    width: 90vw;
+        display: flex;
+        align-items: flex-start;
+        text-align: start;
+        width: 90vw;
    
 }
 
 .course-hero-div{
-   display: none;
+        display: none;
 }
 .info-box h1{
-    font-size: 3em;
-    margin: 0;
+        font-size: 3em;
+        margin: 0;
 }
 
 .info-box h3{
-    font-size: 1em;
-    font-weight: 600;
-    margin-left: auto;
-    margin-right: auto;
+        font-size: 1em;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
 }
 .info-box{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     
 }
 .paper-thumbnail-holder{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .box-div{
@@ -324,8 +330,8 @@ background-color:green;
         
         }
     .thumbnail-title{
-     display: flex;
-     justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .level-paper-holder{
@@ -334,17 +340,16 @@ background-color:green;
         width: 80vw;
         height: auto;
         }
-        .tri-heading{
+    .tri-heading{
         display: flex;
         font-size: 1em;
-        width: 50vw;
-            
+        width: 50vw;  
         }
         .Level-heading-div{
-            font-size: 1em;
-            display: flex;
-            margin-top: 10vh;
-            width: 50vw;
+        font-size: 1em;
+        display: flex;
+        margin-top: 10vh;
+        width: 50vw;
             
         }
   }
