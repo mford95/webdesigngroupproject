@@ -16,6 +16,10 @@ export default function InteractionMajor() {
     const projects = ["project1a", "project1B", "project1C", "project2a", "project2b", "project2c"];
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
+    useEffect(() => {
        !interaction.length && fetchInteraction();
       }, []);
        
@@ -26,6 +30,7 @@ export default function InteractionMajor() {
         setthreeHundred(interaction.filter(i => i.fields.level === 300));
         console.log(interaction);
        }, [interaction]);
+       
        
     return (
         <div className="interactionBody">
