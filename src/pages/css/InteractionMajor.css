@@ -32,14 +32,23 @@
 .return{
     display: flex;
     justify-content: flex-start;
-    width: 15vw;
-    height: 5.5vh;
+    
+    
 }
-
 .return h4{
     font-size: 1.5em;
     margin: 0;
+    height: 5vh;
     font-weight: 600;
+    border-bottom: 0.5vh solid black;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.return h4:hover{
+    transition: all 0.1s ease-in;
+    border-bottom: 1.25vh solid #FFD700;
+    cursor: pointer;
 }
 
 .div-title{
@@ -47,6 +56,7 @@
     justify-content: flex-start;
     width: 50vw;
     height: 12.5vh;
+    padding-bottom: 5vh;
 }
 
 .div-title h1{
@@ -62,6 +72,9 @@
     justify-content: start;
     width: 50vw;
     height: 40vh;
+}
+.course-title-info p{
+    width: 50vw;
 }
 
 .title-text{
@@ -138,13 +151,14 @@
 }
 .Level-papers-info{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     width: 80vw;
     margin-top: 5vh;
 }
 .Level-papers-info p{
     width: auto;
+    margin-bottom: 2vh;
 }
 
 .color-code-holder{
@@ -203,6 +217,7 @@
     flex-direction: row;
     justify-content: flex-start;
     text-decoration: none;
+    
 
 }
 .paper-thumbnail-holder a{
@@ -212,8 +227,9 @@
 
 .paper-thumbnail-box{
     display: flex;
-    width: 230px;
-    height: 230px;
+    width: 25vw;
+    height: 35vh;
+    
 
 }
 .link-margin{
@@ -253,6 +269,7 @@
         flex-direction: row;
         height: 75vh;
         width: 70vw;
+       
 }
 
 .title-wrap{
@@ -265,7 +282,7 @@
 }
 
 .return{
-        display: none;
+        
     
 }
 
@@ -274,7 +291,7 @@
         flex-direction: row;
         justify-content: center;
         width: 90vw;
-        height: 40vh;
+        
 }
 
 .title-text{
@@ -282,7 +299,14 @@
         align-items: flex-start;
         text-align: start;
         width: 90vw;
+        
    
+}
+.title-text p{
+    
+    width: 90vw;
+    
+
 }
 
 .course-hero-div{
@@ -309,6 +333,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .box-div{
@@ -320,10 +346,9 @@
     .paper-thumbnail-box{
         display: flex;
         justify-content: center;
-        margin-right: auto;
-        margin-left: auto;
-        width: 230px;
-        height: 230px;
+       
+        width: 80vw;
+        height: 50vh;
         background-color:green;
         
         
