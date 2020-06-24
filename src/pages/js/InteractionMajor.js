@@ -13,6 +13,8 @@ export default function InteractionMajor() {
     const [twoHundred, settwoHundred] = useState(null);
     const [threeHundred, setthreeHundred] = useState(null);
 
+    const projects = ["project1a", "project1B", "project1C", "project2a", "project2b", "project2c"];
+
     useEffect(() => {
        !interaction.length && fetchInteraction();
       }, []);
@@ -22,6 +24,7 @@ export default function InteractionMajor() {
         setoneHundred(interaction.filter(i => i.fields.level === 100));
         settwoHundred(interaction.filter(i => i.fields.level === 200));
         setthreeHundred(interaction.filter(i => i.fields.level === 300));
+        console.log(interaction);
        }, [interaction]);
        
     return (
@@ -87,11 +90,12 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                     {oneHundred && oneHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin" to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
-                            <div className="paper-thumbnail-box">
-    
-                            </div>
+                            
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
+
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
                             </div>
@@ -107,11 +111,12 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                     {oneHundred && oneHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin" to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
-                            <div className="paper-thumbnail-box">
-    
-                            </div>
+
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
+
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
                             </div>
@@ -131,11 +136,12 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                         {twoHundred && twoHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin" to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
-                            <div className="paper-thumbnail-box">
-    
-                            </div>
+
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
+
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
                             </div>
@@ -150,10 +156,11 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                     {twoHundred && twoHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin"  to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
                             
-                            <img className="paper-thumbnail-box" src={interactionHero} alt="" />
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
                             
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
@@ -176,11 +183,12 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                     {threeHundred && threeHundred.filter(i => i.fields.courseOfferedIn == "Trimester 1").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin" to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
-                            <div className="paper-thumbnail-box">
-    
-                            </div>
+
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
+
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
                             </div>
@@ -195,11 +203,12 @@ export default function InteractionMajor() {
                     </div>
                     <div className="paper-thumbnail-holder">
                     {threeHundred && threeHundred.filter(i => i.fields.courseOfferedIn == "Trimester 2").map(i => 
-                            <Link to={`/Interaction-papers/${i.fields.courseCode}`}>
+                            <Link className="link-margin" to={`/Interaction-papers/${i.fields.courseCode}`}>
                             <div className="box-div">
-                            <div className="paper-thumbnail-box">
-    
-                            </div>
+
+                            <img className="paper-thumbnail-box" 
+                            src={`https:${i.fields[projects[Math.floor(Math.random() * (5 - 0 + 1)) + 0]].fields.file.url}?w=1080&h=720`} alt="" />
+
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
                             </div>
