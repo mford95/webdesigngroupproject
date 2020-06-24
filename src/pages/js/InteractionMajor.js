@@ -14,6 +14,10 @@ export default function InteractionMajor() {
     const [threeHundred, setthreeHundred] = useState(null);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
+    useEffect(() => {
        !interaction.length && fetchInteraction();
       }, []);
        
@@ -23,6 +27,7 @@ export default function InteractionMajor() {
         settwoHundred(interaction.filter(i => i.fields.level === 200));
         setthreeHundred(interaction.filter(i => i.fields.level === 300));
        }, [interaction]);
+       
        
     return (
         <div className="interactionBody">

@@ -36,24 +36,24 @@ export default function InteractionPapers(props) {
   }, [selectedCourse]);
 
   return <div className="course-wrap">
-  <div className="title-div">
-      <div className="title-wrap">
+  <div className="course-title-div">
+      <div className="course-title-wrap">
           <Fade left>
-            <div className="return">
+            <div className="paper-return">
                     <Link to ="/interactionMajor" style={{ textDecoration: 'none', color: 'black' }} >
                         <h4>Return</h4>
                     </Link>
             </div>
           </Fade>
           <Fade left >
-            <div className="div-title">
+            <div className="section-title">
                 <h1>{selectedCourse.courseCode}</h1>
             </div>
           </Fade>  
           
-          <div className="course-title-info">
+          <div className="paper-title-info">
             <Fade left>
-              <div className="title-text">
+              <div className="course-title-text">
                   <h2>{selectedCourse.courseTitle}</h2>
                   <p>{selectedCourse.courseDescription}</p>
               </div>
@@ -71,7 +71,7 @@ export default function InteractionPapers(props) {
   </div>
   <div className="requirements-div">
       <Fade>
-        <div className="div-title">
+        <div className="section-title">
             <h1>Requirements</h1>
         </div>
       </Fade>
@@ -83,21 +83,21 @@ export default function InteractionPapers(props) {
       
   </div>
   <Fade bottom >
-    <div className="course-info-div">
+    <div className="paper-info-div">
         <Fade>
-            <div className="info-box">
+            <div className="paper-info-box">
                 <h3>Course offered in:</h3>
                 <h1>{selectedCourse.courseOfferedIn}</h1>
             </div>
         </Fade>
         <Fade>
-            <div className="info-box">
+            <div className="paper-info-box">
                 <h3>Campus:</h3>
                 <h1>{selectedCourse.campus}</h1>
             </div>
         </Fade>
         <Fade>
-            <div className="info-box">
+            <div className="paper-info-box">
                 <h3>Duration:</h3>
                 <h1>{selectedCourse.duration}</h1>
             </div>
@@ -108,13 +108,13 @@ export default function InteractionPapers(props) {
 
   <div className="projects-div">
     <Fade>
-        <div className="div-title">
+        <div className="section-title">
             <h1>Projects</h1>
         </div>
     </Fade>
     <Fade right cascade>   
       <div className="course-project">
-          <div className="div-title">
+          <div className="section-title">
               <h2>Project One </h2>
           </div>
 
@@ -139,7 +139,7 @@ export default function InteractionPapers(props) {
 
     <Fade right cascade>
       <div className="course-project">
-          <div className="div-title">
+          <div className="section-title">
               <h2>Project Two </h2>
           </div>
 
@@ -166,7 +166,7 @@ export default function InteractionPapers(props) {
     <Fade bottom>
         <div className="course-ranking-div">
                 <Fade>
-                    <div className="div-title">
+                    <div className="section-title">
                         <h1>Course Ranking</h1>
                     </div>
                 </Fade>
