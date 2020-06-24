@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 319px) {
+@media only screen and (max-width: 320px) {
 
     /* .nav-container{
         display: none;
@@ -10,7 +10,7 @@
     } */
 
 /* Title Section */
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -20,14 +20,14 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 90vh;
+        height: 100vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -35,36 +35,37 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 80vh;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 2.5em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 1.5em;
         /* margin-bottom: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-between;
         width: 80vw;
         height: 65vh;
     }
@@ -95,16 +96,16 @@
         margin-bottom: 10vh;
     }
 
-    .title-text{
+    .course-title-text{
         width: 80vw;
         height: 40vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 1.5em;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 80vw;
         height: 25vh;
     }
@@ -136,7 +137,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -144,17 +145,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 80vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 2.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.25em;
         font-weight: 600;
         margin: 0;
@@ -328,7 +329,7 @@
 
 
 
-@media only screen and (min-width: 374px) {
+@media only screen and (max-width: 375px) {
 
     /* .nav-container{
         display: none;
@@ -346,7 +347,7 @@
     }
 
 /* Title Section */
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -356,14 +357,14 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         height: 90vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -371,33 +372,33 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 80vh;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
-        font-size: 2.5em;
+    .section-title h1{
+        font-size: 2em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 1.5em;
         /* margin-bottom: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -431,16 +432,16 @@
         margin-bottom: 10vh;
     }
 
-    .title-text{
+    .course-title-text{
         width: 80vw;
         height: 40vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 1.5em;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 80vw;
         height: 25vh;
     }
@@ -472,7 +473,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -480,17 +481,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 80vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 2.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.25em;
         font-weight: 600;
         margin: 0;
@@ -669,7 +670,7 @@
 
 
 
-@media only screen and (min-width: 424px) {
+@media only screen and (max-width: 425px) {
 
     /* .nav-container{
         display: none;
@@ -687,7 +688,7 @@
     }
 
 /* Title Section */
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -697,14 +698,14 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         height: 90vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -712,33 +713,33 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 80vh;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 2.5em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 1.5em;
         /* margin-bottom: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -775,16 +776,16 @@
         margin-bottom: 10vh;
     }
 
-    .title-text{
+    .course-title-text{
         width: 80vw;
         height: 40vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 1.5em;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 80vw;
         height: 22.5vh;
     }
@@ -816,7 +817,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -824,17 +825,352 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 80vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 2.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
+        font-size: 1.25em;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+/* Projects Page */
+
+    .projects-div{
+        display: flex;
+        align-items: center;
+        width: 110vw;
+        height: 200vh;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+
+    .course-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 15vh;
+    }
+
+    .project-blurb{
+        width: 80vw;
+        height: auto;
+    }
+
+    .project-blurb p{
+        width: 80vw;
+        margin-bottom: 10vh;
+        font-size: 0.85em;
+        line-height: 1.75em;
+    }
+
+    .image-slideshow{
+        width: 95vw;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        grid-template-rows: minmax(35vh, 1vw);
+        grid-auto-flow: column;
+        grid-auto-columns: calc(50% - var(--gutter) * 2);
+        overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+    }
+    
+    
+    .slidebox {
+        width: 85vw;
+        height: 35vh;
+        margin-right: 5vw;
+        background-color: black;
+    }
+    
+    .slidebox img{
+        height: 100%;
+        width: auto;
+    }
+
+
+/* Course Ranking */
+
+    .course-ranking-div{
+        display: flex;
+        justify-content: space-between;
+        height: 200vh;
+        width: 85vw;
+        margin-bottom: 30vh;
+        padding: 0;
+    }
+
+    .ranking-div{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .backdrop img{
+        height: 25vh;
+        width: auto;
+        z-index: 0;
+        left: 7.5vw;
+    }
+
+
+    .ranking-title{
+        left: 7.5vh;
+        width: 16.5vw;
+        height: 17.5vh;
+        z-index: 100;
+    }
+    
+    .ranking-title h1{
+        font-size: 5em;
+        margin: 0;
+    }
+    
+    .ranking-title h3{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .ranking-star{
+        width: 70vw;
+        height: 10vh;
+    }
+
+    .main-star{
+        width: 12.5vw;
+        height: 5.75vh;
+    }
+
+    .main-star img{
+        width: 90%;
+        height: auto;
+    }
+
+
+
+
+
+
+    .feedback-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140vh;
+        width: 80vw;
+    }
+
+    .feedback{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .feedback h3, p{
+        width: 80vw;
+    }
+
+    .feedback p{
+        font-size: 0.9em;
+        /* width: 60vw; */
+    }
+
+    .star-rating{
+        width: 60vw;
+        height: 10vh;
+    }
+
+    .star{
+        width: 15vw;
+        height: 7.5vh;
+    }
+
+    .star img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 426px) {
+
+    /* .nav-container{
+        display: none;
+    }
+
+    .Holder{
+        display: none;
+    } */
+
+
+    .course-wrap{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+
+/* Title Section */
+    .course-title-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80vw;
+        margin-bottom: 5vh;
+        margin-top: 10vh;
+    }
+
+    .course-title-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 90vh;
+    }
+
+    .paper-return{
+        display: flex;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 8.5vh;
+        
+    }
+    
+    .paper-return h4{
+        font-size: 1.25em;
+        margin: 0;
+        height: 5vh;
+    }
+
+    .course-title-div{
+        height: 80vh;
+    }
+
+    .section-title{
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 12.5vh;
+    }
+
+    .section-title h1{
+        font-size: 2.5em;
+    }
+
+    .section-title h2{
+        font-size: 1.5em;
+        /* margin-bottom: 5vh; */
+    }
+
+    .paper-title-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80vw;
+        height: 65vh;
+    }
+    
+    .course-points-div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 25vh;
+        width: 40vw;
+    }
+    
+    .points-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        height: 20vh;
+        background-color: #FFD700;
+    }
+    
+    .points-block h1{
+        font-size: 3.75em;
+        margin: 0;
+        margin-top: 2vh;
+    }
+    
+    .points-block h4{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+
+    .course-title-text{
+        width: 80vw;
+        height: 40vh; 
+    }
+    
+    .course-title-text h2{
+        font-size: 1.5em;
+    }
+    
+    .course-title-text p{
+        width: 80vw;
+        height: 22.5vh;
+    }
+
+/* Requirements */
+
+    .requirements-div{
+        height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .paper-requirements{
+        display: flex;
+        align-items: space-evenly;
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .paper-requirements h2{
+        font-size: 1em;  
+        width: 80vw;
+        height: auto;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+
+
+/* Course Information Section */
+
+    .paper-info-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .paper-info-box{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .paper-info-box h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .paper-info-box h3{
         font-size: 1.25em;
         font-weight: 600;
         margin: 0;
@@ -1027,24 +1363,24 @@
 
 /* Title Section */
 
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50vh;
+        height: 60vh;
         width: 80vw;
         margin-bottom: 0;
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         height: 60vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -1052,37 +1388,38 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 80vh;
         margin-top: 0;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 2.5em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 1.5em;
         /* padding-top: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: space-between;
         width: 80vw;
         height: 30vh;
     }
@@ -1116,16 +1453,16 @@
         margin-bottom: 10vh;
     }
 
-    .title-text{
+    .course-title-text{
         width: 50vw;
         height: 40vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 1.5em;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 55vw;
         height: 25vh;
     }
@@ -1157,7 +1494,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1165,17 +1502,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 80vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 2.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.25em;
         font-weight: 600;
         margin: 0;
@@ -1364,7 +1701,7 @@
 
 /* Title Section */
 
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1374,14 +1711,15 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 80vh;
+        margin-top: 10vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -1389,34 +1727,34 @@
         
     }
 
-    .return h4{
+    .paper-return h4{
         font-size: 1.5em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 75vh;
         margin-top: 0;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 4em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 2.5em;
         /* padding-top: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1454,19 +1792,19 @@
         margin-bottom: 10vh;
     }
 
-    .title-text{
+    .course-title-text{
         display: flex;
         justify-content: space-between;
         width: 55vw;
         height: 40vh; 
     }
 
-    .title-text h2{
+    .course-title-text h2{
         font-size: 2.5em;
         width: 50vw;
     }
 
-    .title-text p{
+    .course-title-text p{
         width: 60vw;
         height: 15vh;
         font-size: 1.25em;
@@ -1499,7 +1837,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1507,17 +1845,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 25vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 2.25em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.25em;
         font-weight: 600;
         margin: 0;
@@ -1713,7 +2051,7 @@
 
 /* Title Section */
 
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1723,14 +2061,14 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 70vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -1738,34 +2076,36 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
+        display: flex;
+        align-items: center;
         height: 75vh;
         margin-top: 0;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 4em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 2.75em;
         /* padding-top: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1802,18 +2142,18 @@
         margin-bottom: 12.5vh;
     }
 
-    .title-text{
+    .course-title-text{
         display: flex;
         justify-content: space-evenly;
         width: 50vw;
         height: 45vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 2.5em;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 55vw;
         height: 15vh;
     }
@@ -1846,7 +2186,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1854,18 +2194,18 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 25vw;
         height: 25vh;
     }
 
-    .info-box h1{
-        font-size: 3em;
+    .paper-info-box h1{
+        font-size: 2em;
         margin: 0;
     }
 
-    .info-box h3{
-        font-size: 1.25em;
+    .paper-info-box h3{
+        font-size: 1.15em;
         font-weight: 600;
         margin: 0;
     }
@@ -2060,7 +2400,7 @@
 
 /* Title Section */
 
-    .title-div{
+    .course-title-div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2070,14 +2410,14 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 80vh;
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
@@ -2085,34 +2425,34 @@
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.5em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 75vh;
         margin-top: 0;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 4.5em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 2.75em;
         /* padding-top: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -2149,19 +2489,19 @@
         margin-bottom: 12.5vh;
     }
 
-    .title-text{
+    .course-title-text{
         display: flex;
         justify-content: space-between;
         width: 55vw;
         height: 40vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 3em;
         width: 50vw;
     }
     
-    .title-text p{
+    .course-title-text p{
         width: 50vw;
         height: 15vh;
         font-size: 1.25em;
@@ -2195,7 +2535,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -2203,17 +2543,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 25vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 3.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.5em;
         font-weight: 600;
         margin: 0;
@@ -2407,14 +2747,14 @@
         display: flex;
         align-items: center;
         width: 100vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
 /* Title Section */
 
-    .title-div{
+    .course-title-div{
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         height: 100vh;
         width: 80vw;
@@ -2422,52 +2762,54 @@
         margin-top: 10vh;
     }
 
-    .title-wrap{
+    .course-title-wrap{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 80vh;
+        height: 80vh; 
     }
 
-    .return{
+    .paper-return{
         display: flex;
         justify-content: flex-start;
         width: 50vw;
         height: 8.5vh;
+        margin-top: 5vh;
         
     }
     
-    .return h4{
+    .paper-return h4{
         font-size: 1.5em;
         margin: 0;
         height: 5vh;
     }
 
-    .title-div{
+    .course-title-div{
         height: 75vh;
         margin-top: 0;
     }
 
-    .div-title{
+    .section-title{
         display: flex;
         align-items: center;
         width: 80vw;
         height: 12.5vh;
     }
 
-    .div-title h1{
+    .section-title h1{
         font-size: 4.5em;
     }
 
-    .div-title h2{
+    .section-title h2{
         font-size: 2.75em;
         /* padding-top: 5vh; */
     }
 
-    .course-title-info{
+    .paper-title-info{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
         width: 80vw;
         height: 45vh;
     }
@@ -2501,20 +2843,20 @@
         margin-bottom: 12.5vh;
     }
 
-    .title-text{
+    .course-title-text{
         display: flex;
         justify-content: space-between;
         width: 55vw;
-        height: 40vh; 
+        height: 35vh; 
     }
     
-    .title-text h2{
+    .course-title-text h2{
         font-size: 3em;
-        width: 50vw;
+        width: 40vw;
     }
     
-    .title-text p{
-        width: 50vw;
+    .course-title-text p{
+        width: 45vw;
         height: 15vh;
         font-size: 1.25em;
     }
@@ -2547,7 +2889,7 @@
 
 /* Course Information Section */
 
-    .course-info-div{
+    .paper-info-div{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -2555,17 +2897,17 @@
         width: 100vw;
     }
 
-    .info-box{
+    .paper-info-box{
         width: 25vw;
         height: 25vh;
     }
 
-    .info-box h1{
+    .paper-info-box h1{
         font-size: 3.5em;
         margin: 0;
     }
 
-    .info-box h3{
+    .paper-info-box h3{
         font-size: 1.5em;
         font-weight: 600;
         margin: 0;
