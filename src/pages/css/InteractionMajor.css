@@ -233,8 +233,35 @@
 }
 .link-margin{
     margin-right: 40px;
+    transform: perspective(1px) translateZ(0);
     
 }
+@keyframes link-margin-bob {
+    0% {
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes link-margin-float {
+    100% {
+      transform: translateY(-8px);
+    }
+  }
+.link-margin:hover, .link-margin:focus, .link-margin:active {
+    animation-name: link-margin-float, link-margin-bob;
+    animation-duration: .3s, 1.3s;
+    animation-delay: 0s, .3s;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal, alternate;
+  }
 .paper-thumbnail-box img{
     display: flex;
     position: relative;
@@ -248,10 +275,7 @@
    
 }
 
-.thumbnail-title{
-    
-    
-}
+
 
 
 @media only screen and (max-width: 596px) {
