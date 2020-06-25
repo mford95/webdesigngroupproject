@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/Nav.css";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import homeLogo from "../../assets/nav/logo.png"
 
 export default function Nav() {
@@ -13,7 +13,7 @@ export default function Nav() {
                 <NavLink to="Levels" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Levels</NavLink>
                 <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>
-        <div class="menu">
+        <div className="menu">
             <a href="#">Careers</a>
             <a href="#">Resources</a>
             <a href="#">Levels</a>

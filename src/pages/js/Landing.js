@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import "../css/Landing.css";
 
 import Fade from 'react-reveal/Fade';
@@ -27,7 +28,7 @@ export default function Landing() {
                 <div className="shortcut-links">
                     <a className="shortcut-links-hover shortcut" href=""><img src={industrialLink} alt="'Industrial' text with blue splodges" /></a>
                     <a className="shortcut-links-hover shortcut" href=""><img src={mediaLink} alt="'Media' text with red splodges" /></a>
-                    <a className="shortcut-links-hover" href=""><img src={interactionLink} alt="'Interaction' text with yellow splodges" /></a>
+                    <NavLink to="/InteractionMajor" className="shortcut-links-hover" href=""><img src={interactionLink} alt="'Interaction' text with yellow splodges" /></NavLink>
                     <a className="shortcut-links-hover" href=""><img src={communicationLink} alt="'Communication' text with orange splodges" /></a>
                 </div>
                 
@@ -36,7 +37,9 @@ export default function Landing() {
                 </div>
             </div>
             
+            
             <Stats />
+
 
             <div className="major-description">
                 <Fade bottom duration={1000} fraction={0.3}>
@@ -96,7 +99,7 @@ export default function Landing() {
                         <div className="major-main-content-text">
                             <div className="major-main-content-text-align">
                                 <p>Study how humans connect and interact with a vast range of physical and digital systems. Learn to envision how people experience products - from real objects to digital interactions with apps and websites - and bring that vision to life in ways that feel inspired, refined, and even magical.</p>
-                                <button className="major-main-content-interaction-button">Learn more</button>
+                                <NavLink to="/InteractionMajor"><button className="major-main-content-interaction-button">Learn more</button></NavLink>
                             </div>
                         </div>
                     </div>

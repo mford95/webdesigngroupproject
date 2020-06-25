@@ -1,63 +1,63 @@
-.stats-section{
+.landing-stats{
     margin-top: 15vh;
     margin-bottom: 25vh;
     background-color: #6ABD45;
-    padding: 10vh 0;
     display: flex;
     color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
 }
 
-.stats-text{
-    width: 80%;
-    margin: 0 auto;
+.stats-indiv{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 25vw;
+    font-size: 100%;
+}
+
+.stats-indiv h1{
+    font-size: 3.5em;
+    margin: 0;
     text-align: center;
-
 }
 
-.stats-individual{
-    font-size: 140%;
-    line-height: 20%;
-}
-
-.stats-individual h2{
-    font-size: 200%;
+.stats-indiv h3{
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: center;
 }
 
 
+@media (max-width: 770px){
 
-@media (max-width: 596px){
-
-    .stats-section{
-        margin-bottom: 0vh;
-    }
-
-    .stats-individual{
-        font-size: 105%;
-        line-height: 20%;
-    }
-
-  }
-
-
-@media (max-width: 426px){
-
-    .stats-section{
-        margin-bottom: 15vh;
-    }
-
-    .stats-text{
-        width: 90%;
-    }
-
-    .stats-individual{
-        font-size: 85%;
-        line-height: 20%;
+    .stats-indiv h1{
+        font-size: 2.5em;
     }
     
-    .stats-individual h2{
-        font-size: 250%;
+    .stats-indiv h3{
+        font-size: 1.25em;
+    }
+
+}
+
+
+@media (max-width: 590px){
+
+    .landing-stats{
+        height: 45vh;
+    }
+
+    .stats-indiv h1{
+        font-size: 2.25em;
     }
     
+    .stats-indiv h3{
+        font-size: 0.9em;
+    }
+
 }

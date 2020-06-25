@@ -351,7 +351,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: 100vh;
         width: 80vw;
         margin-bottom: 5vh;
         margin-top: 10vh;
@@ -402,8 +402,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-between;
         width: 80vw;
-        height: 65vh;
+        height: 75vh;
     }
     
     .course-points-div{
@@ -434,7 +435,7 @@
 
     .course-title-text{
         width: 80vw;
-        height: 40vh; 
+        height: 50vh; 
     }
     
     .course-title-text h2{
@@ -670,7 +671,7 @@
 
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 376px) {
 
     /* .nav-container{
         display: none;
@@ -692,16 +693,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: 90vh;
         width: 80vw;
         margin-bottom: 5vh;
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
 
     .course-title-wrap{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-evenly;
         height: 90vh;
     }
 
@@ -720,7 +721,7 @@
     }
 
     .course-title-div{
-        height: 80vh;
+        height: 90vh;
     }
 
     .section-title{
@@ -744,7 +745,7 @@
         flex-direction: column;
         align-items: flex-start;
         width: 80vw;
-        height: 65vh;
+        height: 80vh;
     }
     
     .course-points-div{
@@ -1094,7 +1095,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 35vw;
+        width: 30vw;
         height: 20vh;
         background-color: #FFD700;
     }
@@ -1705,7 +1706,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 90vh;
         width: 80vw;
         margin-bottom: 10vh;
         margin-top: 10vh;
@@ -1728,7 +1729,7 @@
     }
 
     .paper-return h4{
-        font-size: 1.5em;
+        font-size: 1.25em;
         margin: 0;
         height: 5vh;
     }
@@ -1746,12 +1747,11 @@
     }
 
     .section-title h1{
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .section-title h2{
         font-size: 2.5em;
-        /* padding-top: 5vh; */
     }
 
     .paper-title-info{
@@ -1796,18 +1796,18 @@
         display: flex;
         justify-content: space-between;
         width: 55vw;
-        height: 40vh; 
+        height: 45vh; 
     }
 
     .course-title-text h2{
-        font-size: 2.5em;
+        font-size: 2em;
         width: 50vw;
     }
 
     .course-title-text p{
         width: 60vw;
         height: 15vh;
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
 /* Requirements */
@@ -1815,6 +1815,7 @@
     .requirements-div{
         height: 35vh;
         margin-top: 0;
+        margin-top: 10vh;
         margin-bottom: 15vh;
     }
 
@@ -2444,7 +2445,7 @@
     }
 
     .section-title h1{
-        font-size: 4.5em;
+        font-size: 4em;
     }
 
     .section-title h2{
@@ -2497,7 +2498,7 @@
     }
     
     .course-title-text h2{
-        font-size: 3em;
+        font-size: 2.75em;
         width: 50vw;
     }
     
@@ -2513,7 +2514,8 @@
         height: 35vh;
         width: 80vw;
         margin-top: 0;
-        margin-bottom: 20vh;
+        margin-bottom: 15vh;
+        margin-top: 15vh;
     }
 
     .paper-requirements{
@@ -2756,7 +2758,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        height: 100vh;
+        height: 90vh;
         width: 80vw;
         margin-bottom: 10vh;
         margin-top: 10vh;
@@ -2797,7 +2799,7 @@
     }
 
     .section-title h1{
-        font-size: 4.5em;
+        font-size: 4.25em;
     }
 
     .section-title h2{
@@ -2809,9 +2811,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
         width: 80vw;
-        height: 45vh;
+        height: 50vh;
     }
 
     
@@ -2847,11 +2849,11 @@
         display: flex;
         justify-content: space-between;
         width: 55vw;
-        height: 35vh; 
+        height: 45vh; 
     }
     
     .course-title-text h2{
-        font-size: 3em;
+        font-size: 2.75em;
         width: 40vw;
     }
     
