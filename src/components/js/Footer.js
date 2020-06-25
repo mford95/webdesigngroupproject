@@ -20,10 +20,7 @@ export default class Footer extends Component {
                 <div className="joinBox">
                     <div className="joinLeft">
                     <h1>Interested in joining?</h1>
-                    <p>Contact us to learn more about the exciting opportunities we offer</p>
-                    </div>
-                    <div className="joinRight">
-                    <button>Contact Us</button>
+                    <p>Contact us to learn more about the exciting opportunities we offer.</p>
                     </div>
                 </div>
             <div className="mainContainer">
