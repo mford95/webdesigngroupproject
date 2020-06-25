@@ -22,6 +22,11 @@ export default function InteractionPapers(props) {
 
   const [selectedCourse, setSelectedCourse] = useState({});
 
+
+  useEffect(() => {
+    window.scrollTo(500, 0);
+  }, []);
+
   useEffect(() => {
     fetchInteraction();
   }, []);
