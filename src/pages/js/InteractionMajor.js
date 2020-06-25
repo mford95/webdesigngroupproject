@@ -86,14 +86,7 @@ export default function InteractionMajor() {
                     <p>
                     Discover how to apply this knowledge while exploring the latest technology in areas such as web and game design, healthcare design, and tangible interactions design.</p>
                     </div>
-                    <div className="color-code-holder">
-                    <div className="color-code-div">
-
-                    </div>
-                    <div className="color-code-text">
-                        <p>&#61; Core</p>
-                    </div>
-                </div>
+                    
                 <div className="Level-heading-div">
                     <h1>100 Level</h1>
                     </div>
@@ -112,6 +105,7 @@ export default function InteractionMajor() {
 
                             <div className="thumbnail-title">
                             <h3>{i.fields.courseCode}</h3>
+                            
                             </div>
                             </div>
                             </Link>
