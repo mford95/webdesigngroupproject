@@ -8,8 +8,7 @@ import { Link } from "react-router-dom";
 import HalfStar from '../../assets/half-star.png';
 import Star from '../../assets/star.png';
 import RankingBackdrop from '../../assets/ranking-backdrop.png';
-import YellowHalfStar from '../../assets/yellow-half-star.png';
-import YellowStar from '../../assets/yellow-star.png';
+
 
 
 import Fade from 'react-reveal/Fade';
@@ -227,21 +226,12 @@ export default function InteractionPapers(props) {
                         <div className="feedback">
                             <h3>{selectedCourse.reviewName1}</h3>
                             <p>{selectedCourse.reviewComment1}</p>
-                            <div className="star-rating">
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowHalfStar }  alt="Half Star" />
-                                </div>
-                                <div className="star">
-                                </div>
+                             <div className="star-rating">
+                            <img
+                    alt={selectedCourse.reviewStars1.fields.title}
+                    src={`https:${selectedCourse.reviewStars1.fields.file.url}?w=1000&h=1000`}
+                    id= "reviewstars"
+                    />
                             </div>
                         </div>
                     </Fade>
@@ -250,21 +240,11 @@ export default function InteractionPapers(props) {
                             <h3>{selectedCourse.reviewName2}</h3>
                             <p>{selectedCourse.reviewComment2}</p>
                             <div className="star-rating">
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Half Star" />
-                                </div>
+                              <img
+                    alt={selectedCourse.reviewStars2.fields.title}
+                    src={`https:${selectedCourse.reviewStars2.fields.file.url}?w=1000&h=1000`}
+                    id= "reviewstars"
+                    />       
                             </div>
                         </div>
                     </Fade>
@@ -273,21 +253,13 @@ export default function InteractionPapers(props) {
                             <h3>{selectedCourse.reviewName3}</h3>
                             <p>{selectedCourse.reviewComment3}</p>
                             <div className="star-rating">
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
-                                    <img src= { YellowStar }  alt="Star" />
-                                </div>
-                                <div className="star">
+                            <img
+                    alt={selectedCourse.reviewStars3.fields.title}
+                    src={`https:${selectedCourse.reviewStars3.fields.file.url}?w=1000&h=1000`}
+                    id= "reviewstars"
+                    />      
 
-                                </div>
-                                <div className="star">
-
-                                </div>
+                                
                             </div> 
                         </div>
                     </Fade>

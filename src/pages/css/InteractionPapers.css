@@ -293,7 +293,6 @@
 }
 
 
-
 .ranking-title{
     display: flex;
     justify-content: space-evenly;
@@ -337,19 +336,14 @@
 }
 
 .star-rating{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 20vw;
+    
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
     height: 7.5vh;
 }
 
-.star{
-    width: 3vw;
-    height: 6vh;
-}
-
-.star img{
-    width: 2.75vw;
-    height: auto;
+#reviewstars {
+    width: 100%;
+    
 }
