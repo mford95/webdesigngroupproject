@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <div className="nav-container">
             <nav>
-                <NavLink to="Landing" className="homeLogo" ><img className="logo" src={homeLogo} alt='' ></img></NavLink>
+                <NavLink to="/" className="homeLogo" ><img className="logo" src={homeLogo} alt='' ></img></NavLink>
                 <NavLink to="Careers" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Careers</NavLink>
                 <NavLink to="Resources" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Resources</NavLink>
                 <NavLink to="Levels" className="NavLinks" activeStyle={{textDecoration: "underline"}}>Levels</NavLink>
