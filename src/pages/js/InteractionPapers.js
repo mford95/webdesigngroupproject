@@ -46,7 +46,7 @@ export default function InteractionPapers(props) {
         <div className="course-title-wrap">
             <Fade left>
               <div className="paper-return">
-                      <Link to ="/interactionMajor" style={{ textDecoration: 'none', color: 'black' }} >
+                      <Link to ="/InteractionMajor" style={{ textDecoration: 'none', color: 'black' }} >
                           <h4>Return</h4>
                       </Link>
               </div>
