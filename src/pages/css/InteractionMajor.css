@@ -108,7 +108,7 @@
     align-items: center;
     height: 50vh;
     width: 100vw;
-    background-color: yellow;
+    background-color: #FFD700;
     margin-bottom: 10vh;
 }
 
@@ -168,7 +168,7 @@
 }
 
 .color-code-div{
-    background-color: yellow;
+    background-color: #FFD700;
     width: 30px;
     height: 30px;
     margin-bottom: auto;
@@ -190,7 +190,7 @@
     
 }
 .Level-heading-div h1{
-    border-bottom: 1.5vh solid yellow;
+    border-bottom: 1.5vh solid #FFD700;
     
 }
 
